@@ -13,9 +13,8 @@ export default function Features() {
         <MaxWidthWrapper>
           <HeaderSection
             label="Features"
-            title="Discover all features."
-            subtitle="Harum quae dolore inventore repudiandae? orrupti aut temporibus
-          ariatur."
+            title="Discover Features."
+            subtitle="Explore detailed information about Olympic events, athletes, and results."
           />
 
           <div className="mt-12 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -46,8 +45,8 @@ export default function Features() {
                         rounded="xl"
                         className="px-4"
                       >
-                        <Link href="/" className="flex items-center gap-2">
-                          <span>Visit the site</span>
+                        <Link href={feature.link} className="flex items-center gap-2">
+                          <span>Explore</span>
                           <Icons.arrowUpRight className="size-4" />
                         </Link>
                       </Button>

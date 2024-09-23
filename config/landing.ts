@@ -54,48 +54,43 @@ export const infos: InfoLdg[] = [
 
 export const features: FeatureLdg[] = [
   {
-    title: "Feature 1",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "nextjs",
+    title: "Event Analytics",
+    description: "Analyze detailed statistics for each Olympic event and track athletes' performance.",
+    link: "/analytics",
+    icon: "chart",
   },
   {
-    title: "Feature 2",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "google",
+    title: "Real-time Data Updates",
+    description: "Stay up-to-date with real-time Olympic data, results, and analytics.",
+    link: "/real-time-data",
+    icon: "refresh",
   },
   {
-    title: "Feature 3",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "gitHub",
-  },
-  {
-    title: "Feature 4",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "laptop",
-  },
-  {
-    title: "Feature 5",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
+    title: "Athlete Profiles",
+    description: "Access in-depth information and stats on all competing athletes.",
+    link: "/athletes",
     icon: "user",
   },
   {
-    title: "Feature 6",
-    description:
-      "Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.",
-    link: "/",
-    icon: "copy",
+    title: "Team Comparisons",
+    description: "Compare Olympic teams across various disciplines and their past performances.",
+    link: "/teams",
+    icon: "users",
+  },
+  {
+    title: "Medal Counts",
+    description: "Track live and historical medal counts by country, sport, and event.",
+    link: "/medals",
+    icon: "medal",
+  },
+  {
+    title: "Custom Data Exports",
+    description: "Export Olympic data for further analysis or integration into other projects.",
+    link: "/exports",
+    icon: "download",
   },
 ];
+
 
 export const testimonials: TestimonialType[] = [
   {

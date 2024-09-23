@@ -16,31 +16,30 @@ export default async function HeroLanding() {
           )}
           target="_blank"
         >
-          <span className="mr-3">🎉</span> Free Olympics Here!
+          <span className="mr-3">🏅</span> Explore Olympics 2024 Data!
         </Link>
 
         <h1 className="font-satoshi text-balance text-[40px] font-black leading-[1.15] tracking-tight sm:text-5xl md:text-6xl md:leading-[1.15]">
-          Next.js Template with{" "}
-          <span className="bg-gradient-to-r from-violet-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">
-            Auth & User Roles!
+          Discover the{" "}
+          <span className="bg-gradient-to-r from-violet-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">            2024 Olympic Games
           </span>
         </h1>
 
         <p className="max-w-2xl text-balance text-muted-foreground sm:text-lg">
-          Minimalist. Sturdy. <b>Open Source</b>. <br /> Focus on your own idea
-          and... Nothing else!
+          Find detailed information about events, athletes, and results. <br />
+          Stay updated with the latest statistics and analyses.
         </p>
 
         <div className="flex justify-center space-x-2">
           <Link
-            href="/docs"
+            href="/dashboard"
             prefetch={true}
             className={cn(
               buttonVariants({ rounded: "xl", size: "lg" }),
               "gap-2 px-5 text-[15px]",
             )}
           >
-            <span>Installation Guide</span>
+            <span>Explore Analytics</span>
             <Icons.arrowRight className="size-4" />
           </Link>
           <Link
@@ -58,7 +57,8 @@ export default async function HeroLanding() {
           >
             <Icons.gitHub className="mr-2 size-4" />
             <p>
-              <span className="hidden sm:inline-block">Star on</span> GitHub
+              <span className="hidden sm:inline-block">Contribute on</span>{" "}
+              GitHub
             </p>
           </Link>
         </div>

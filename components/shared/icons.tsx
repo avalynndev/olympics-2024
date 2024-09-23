@@ -1,42 +1,18 @@
-import {
-  AlertTriangle,
-  ArrowRight,
-  ArrowUpRight,
-  BookOpen,
-  Check,
-  ChevronLeft,
-  ChevronRight,
-  Copy,
-  CreditCard,
-  File,
-  FileText,
-  HelpCircle,
-  Home,
-  Image,
-  Laptop,
-  LayoutPanelLeft,
-  LineChart,
-  Loader2,
-  LucideIcon,
-  LucideProps,
-  MessagesSquare,
-  Moon,
-  MoreVertical,
-  Package,
-  Plus,
-  Puzzle,
-  Search,
-  Settings,
-  SunMedium,
-  Trash,
-  User,
-  X,
-} from "lucide-react";
+import { AlertTriangle, ArrowRight, ArrowUpRight, BookOpen, ChartArea, Check, ChevronLeft, ChevronRight, Copy, CreditCard, Download, File, FileText, FolderSync, HelpCircle, Home, Image, Laptop, LayoutPanelLeft, LineChart, Loader2, LucideIcon, LucideProps, MedalIcon, MessagesSquare, Moon, MoreVertical, Package, Plus, Puzzle, Search, Settings, SunMedium, Trash, User, Users, X } from "lucide-react";
+
+
+
+
 
 export type Icon = LucideIcon;
 
 export const Icons = {
   add: Plus,
+  medal: MedalIcon,
+  refresh: FolderSync,
+  download: Download,
+  users: Users,
+  chart: ChartArea,
   arrowRight: ArrowRight,
   arrowUpRight: ArrowUpRight,
   billing: CreditCard,
