@@ -16,7 +16,7 @@ export default function InfoCard() {
               Highest Number of Medals
             </CardTitle>
           </div>
-          <MedalIcon className="h-6 w-6 text-muted-foreground" />
+          <MedalIcon className="size-6 text-muted-foreground" />
         </CardHeader>
         <CardContent className="pt-4">
           <div className="text-4xl font-bold dark:text-background">USA</div>
@@ -34,7 +34,7 @@ export default function InfoCard() {
               Second Highest Medals
             </CardTitle>
           </div>
-          <MedalIcon className="h-6 w-6 text-muted-foreground" />
+          <MedalIcon className="size-6 text-muted-foreground" />
         </CardHeader>
         <CardContent className="pt-4">
           <div className="text-4xl font-bold dark:text-background">China</div>
@@ -52,7 +52,7 @@ export default function InfoCard() {
               Third Highest Medals
             </CardTitle>
           </div>
-          <MedalIcon className="h-6 w-6 text-muted-foreground" />
+          <MedalIcon className="size-6 text-muted-foreground" />
         </CardHeader>
         <CardContent className="pt-4">
           <div className="text-4xl font-bold dark:text-background">Japan</div>
@@ -67,7 +67,7 @@ export default function InfoCard() {
               Total Medals Earned
             </CardTitle>
           </div>
-          <Users className="h-6 w-6 text-muted-foreground" />
+          <Users className="size-6 text-muted-foreground" />
         </CardHeader>
         <CardContent className="pt-4">
           <div className="text-2xl font-bold">Over 1000+</div>
