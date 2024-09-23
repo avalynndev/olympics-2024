@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 import { useScroll } from "@/hooks/use-scroll";
 import { Icons } from "@/components/shared/icons";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
+import { ModeToggle } from "./mode-toggle";
 
 interface NavBarProps {
   scroll?: boolean;
@@ -62,7 +63,15 @@ export function NavBar({ scroll = false }: NavBarProps) {
         </div>
 
         <div className="flex items-center space-x-3">
-
+          <Link
+              href={siteConfig.links.github}
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium underline underline-offset-4"
+            >
+              <Icons.gitHub className="size-5" />
+            </Link>
+          <ModeToggle/>
         </div>
       </MaxWidthWrapper>
     </header>

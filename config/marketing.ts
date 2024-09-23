@@ -10,5 +10,13 @@ export const marketingConfig: MarketingConfig = {
       title: "Medals",
       href: "/medals",
     },
+    {
+      title: "Dashboard",
+      href: "/dashboard"
+    },
+    {
+      title: "Charts",
+      href: "/charts"
+    }
   ],
 }

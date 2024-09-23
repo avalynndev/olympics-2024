@@ -13,7 +13,6 @@
     "start": "next start",
     "lint": "next lint",
     "preview": "next build && next start",
-    "email": "email dev --dir emails --port 3333",
     "format": "prettier --write ."
   },
   "dependencies": {
