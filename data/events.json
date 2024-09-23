@@ -1,0 +1,2305 @@
+[
+  {
+    "event": "Men's Individual",
+    "tag": "archery",
+    "sport": "Archery",
+    "sport_code": "ARC",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/archery"
+  },
+  {
+    "event": "Women's Individual",
+    "tag": "archery",
+    "sport": "Archery",
+    "sport_code": "ARC",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/archery"
+  },
+  {
+    "event": "Men's Team",
+    "tag": "archery",
+    "sport": "Archery",
+    "sport_code": "ARC",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/archery"
+  },
+  {
+    "event": "Women's Team",
+    "tag": "archery",
+    "sport": "Archery",
+    "sport_code": "ARC",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/archery"
+  },
+  {
+    "event": "Mixed Team",
+    "tag": "archery",
+    "sport": "Archery",
+    "sport_code": "ARC",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/archery"
+  },
+  {
+    "event": "Men's Team",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Men's All-Around",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Men's Floor Exercise",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Men's Pommel Horse",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Men's Rings",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Men's Vault",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Men's Parallel Bars",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Men's Horizontal Bar",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Women's Team",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Women's All-Around",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Women's Vault",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Women's Uneven Bars",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Women's Balance Beam",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Women's Floor Exercise",
+    "tag": "artistic-gymnastics",
+    "sport": "Artistic Gymnastics",
+    "sport_code": "GAR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics"
+  },
+  {
+    "event": "Duet",
+    "tag": "artistic-swimming",
+    "sport": "Artistic Swimming",
+    "sport_code": "SWA",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-swimming"
+  },
+  {
+    "event": "Team",
+    "tag": "artistic-swimming",
+    "sport": "Artistic Swimming",
+    "sport_code": "SWA",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-swimming"
+  },
+  {
+    "event": "Men's 100m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 200m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 400m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 800m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 1500m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 5000m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 10,000m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's Marathon",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 3000m Steeplechase",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 110m Hurdles",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 400m Hurdles",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's High Jump",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's Pole Vault",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's Long Jump",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's Triple Jump",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's Shot Put",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's Discus Throw",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's Hammer Throw",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's Javelin Throw",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's Decathlon",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 20km Race Walk",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 4 x 100m Relay",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's 4 x 400m Relay",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 100m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 200m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 400m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 800m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 1500m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 5000m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 10,000m",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's Marathon",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 3000m Steeplechase",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 100m Hurdles",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 400m Hurdles",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's High Jump",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's Pole Vault",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's Long Jump",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's Triple Jump",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's Shot Put",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's Discus Throw",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's Hammer Throw",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's Javelin Throw",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's Heptathlon",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 20km Race Walk",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 4 x 100m Relay",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Women's 4 x 400m Relay",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "4 x 400m Relay Mixed",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Marathon Race Walk Relay Mixed",
+    "tag": "athletics",
+    "sport": "Athletics",
+    "sport_code": "ATH",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics"
+  },
+  {
+    "event": "Men's Singles",
+    "tag": "badminton",
+    "sport": "Badminton",
+    "sport_code": "BDM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/badminton"
+  },
+  {
+    "event": "Women's Singles",
+    "tag": "badminton",
+    "sport": "Badminton",
+    "sport_code": "BDM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/badminton"
+  },
+  {
+    "event": "Men's Doubles",
+    "tag": "badminton",
+    "sport": "Badminton",
+    "sport_code": "BDM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/badminton"
+  },
+  {
+    "event": "Women's Doubles",
+    "tag": "badminton",
+    "sport": "Badminton",
+    "sport_code": "BDM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/badminton"
+  },
+  {
+    "event": "Mixed Doubles",
+    "tag": "badminton",
+    "sport": "Badminton",
+    "sport_code": "BDM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/badminton"
+  },
+  {
+    "event": "Men",
+    "tag": "basketball",
+    "sport": "Basketball",
+    "sport_code": "BKB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/basketball"
+  },
+  {
+    "event": "Women",
+    "tag": "basketball",
+    "sport": "Basketball",
+    "sport_code": "BKB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/basketball"
+  },
+  {
+    "event": "Men",
+    "tag": "3x3-basketball",
+    "sport": "3x3 Basketball",
+    "sport_code": "BK3",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/3x3-basketball"
+  },
+  {
+    "event": "Women",
+    "tag": "3x3-basketball",
+    "sport": "3x3 Basketball",
+    "sport_code": "BK3",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/3x3-basketball"
+  },
+  {
+    "event": "Men",
+    "tag": "beach-volleyball",
+    "sport": "Beach Volleyball",
+    "sport_code": "VBV",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/beach-volleyball"
+  },
+  {
+    "event": "Women",
+    "tag": "beach-volleyball",
+    "sport": "Beach Volleyball",
+    "sport_code": "VBV",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/beach-volleyball"
+  },
+  {
+    "event": "Men's 51kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Men's 57kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Men's 63.5kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Men's 71kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Men's 80kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Men's 92kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Men's +92kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Women's 50kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Women's 54kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Women's 57kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Women's 60kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Women's 66kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "Women's 75kg",
+    "tag": "boxing",
+    "sport": "Boxing",
+    "sport_code": "BOX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing"
+  },
+  {
+    "event": "B-Boys",
+    "tag": "breaking",
+    "sport": "Breaking",
+    "sport_code": "BKG",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/breaking"
+  },
+  {
+    "event": "B-Girls",
+    "tag": "breaking",
+    "sport": "Breaking",
+    "sport_code": "BKG",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/breaking"
+  },
+  {
+    "event": "Men's Kayak Single",
+    "tag": "canoe-kayak-slalom",
+    "sport": "Canoe Slalom",
+    "sport_code": "CSL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-slalom"
+  },
+  {
+    "event": "Women's Kayak Single",
+    "tag": "canoe-kayak-slalom",
+    "sport": "Canoe Slalom",
+    "sport_code": "CSL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-slalom"
+  },
+  {
+    "event": "Men's Canoe Single",
+    "tag": "canoe-kayak-slalom",
+    "sport": "Canoe Slalom",
+    "sport_code": "CSL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-slalom"
+  },
+  {
+    "event": "Women's Canoe Single",
+    "tag": "canoe-kayak-slalom",
+    "sport": "Canoe Slalom",
+    "sport_code": "CSL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-slalom"
+  },
+  {
+    "event": "Men's Kayak Cross",
+    "tag": "canoe-kayak-slalom",
+    "sport": "Canoe Slalom",
+    "sport_code": "CSL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-slalom"
+  },
+  {
+    "event": "Women's Kayak Cross",
+    "tag": "canoe-kayak-slalom",
+    "sport": "Canoe Slalom",
+    "sport_code": "CSL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-slalom"
+  },
+  {
+    "event": "Men's Kayak Single 1000m",
+    "tag": "canoe-kayak-flatwater",
+    "sport": "Canoe Sprint",
+    "sport_code": "CSP",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater"
+  },
+  {
+    "event": "Men's Kayak Double 500m",
+    "tag": "canoe-kayak-flatwater",
+    "sport": "Canoe Sprint",
+    "sport_code": "CSP",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater"
+  },
+  {
+    "event": "Men's Kayak Four 500m",
+    "tag": "canoe-kayak-flatwater",
+    "sport": "Canoe Sprint",
+    "sport_code": "CSP",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater"
+  },
+  {
+    "event": "Men's Canoe Single 1000m",
+    "tag": "canoe-kayak-flatwater",
+    "sport": "Canoe Sprint",
+    "sport_code": "CSP",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater"
+  },
+  {
+    "event": "Men's Canoe Double 500m",
+    "tag": "canoe-kayak-flatwater",
+    "sport": "Canoe Sprint",
+    "sport_code": "CSP",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater"
+  },
+  {
+    "event": "Women's Kayak Single 500m",
+    "tag": "canoe-kayak-flatwater",
+    "sport": "Canoe Sprint",
+    "sport_code": "CSP",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater"
+  },
+  {
+    "event": "Women's Kayak Double 500m",
+    "tag": "canoe-kayak-flatwater",
+    "sport": "Canoe Sprint",
+    "sport_code": "CSP",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater"
+  },
+  {
+    "event": "Women's Kayak Four 500m",
+    "tag": "canoe-kayak-flatwater",
+    "sport": "Canoe Sprint",
+    "sport_code": "CSP",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater"
+  },
+  {
+    "event": "Women's Canoe Single 200m",
+    "tag": "canoe-kayak-flatwater",
+    "sport": "Canoe Sprint",
+    "sport_code": "CSP",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater"
+  },
+  {
+    "event": "Women's Canoe Double 500m",
+    "tag": "canoe-kayak-flatwater",
+    "sport": "Canoe Sprint",
+    "sport_code": "CSP",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater"
+  },
+  {
+    "event": "Women's Park",
+    "tag": "cycling-bmx-freestyle",
+    "sport": "Cycling BMX Freestyle",
+    "sport_code": "BMF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-bmx-freestyle"
+  },
+  {
+    "event": "Men's Park",
+    "tag": "cycling-bmx-freestyle",
+    "sport": "Cycling BMX Freestyle",
+    "sport_code": "BMF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-bmx-freestyle"
+  },
+  {
+    "event": "Women",
+    "tag": "cycling-bmx-racing",
+    "sport": "Cycling BMX Racing",
+    "sport_code": "BMX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-bmx-racing"
+  },
+  {
+    "event": "Men",
+    "tag": "cycling-bmx-racing",
+    "sport": "Cycling BMX Racing",
+    "sport_code": "BMX",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-bmx-racing"
+  },
+  {
+    "event": "Men's Cross-country",
+    "tag": "cycling-mountain-bike",
+    "sport": "Cycling Mountain Bike",
+    "sport_code": "MTB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-mountain-bike"
+  },
+  {
+    "event": "Women's Cross-country",
+    "tag": "cycling-mountain-bike",
+    "sport": "Cycling Mountain Bike",
+    "sport_code": "MTB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-mountain-bike"
+  },
+  {
+    "event": "Men's Road Race",
+    "tag": "cycling-road",
+    "sport": "Cycling Road",
+    "sport_code": "CRD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-road"
+  },
+  {
+    "event": "Women's Road Race",
+    "tag": "cycling-road",
+    "sport": "Cycling Road",
+    "sport_code": "CRD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-road"
+  },
+  {
+    "event": "Men's Individual Time Trial",
+    "tag": "cycling-road",
+    "sport": "Cycling Road",
+    "sport_code": "CRD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-road"
+  },
+  {
+    "event": "Women's Individual Time Trial",
+    "tag": "cycling-road",
+    "sport": "Cycling Road",
+    "sport_code": "CRD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-road"
+  },
+  {
+    "event": "Men's Team Sprint",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Men's Sprint",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Men's Keirin",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Men's Team Pursuit",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Men's Omnium",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Men's Madison",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Women's Team Sprint",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Women's Sprint",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Women's Keirin",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Women's Team Pursuit",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Women's Omnium",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Women's Madison",
+    "tag": "cycling-track",
+    "sport": "Cycling Track",
+    "sport_code": "CTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/cycling-track"
+  },
+  {
+    "event": "Women's 3m Springboard",
+    "tag": "diving",
+    "sport": "Diving",
+    "sport_code": "DIV",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/diving"
+  },
+  {
+    "event": "Women's 10m Platform",
+    "tag": "diving",
+    "sport": "Diving",
+    "sport_code": "DIV",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/diving"
+  },
+  {
+    "event": "Women's Synchronised 3m Springboard",
+    "tag": "diving",
+    "sport": "Diving",
+    "sport_code": "DIV",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/diving"
+  },
+  {
+    "event": "Women's Synchronised 10m Platform",
+    "tag": "diving",
+    "sport": "Diving",
+    "sport_code": "DIV",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/diving"
+  },
+  {
+    "event": "Men's 3m Springboard",
+    "tag": "diving",
+    "sport": "Diving",
+    "sport_code": "DIV",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/diving"
+  },
+  {
+    "event": "Men's 10m Platform",
+    "tag": "diving",
+    "sport": "Diving",
+    "sport_code": "DIV",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/diving"
+  },
+  {
+    "event": "Men's Synchronised 3m Springboard",
+    "tag": "diving",
+    "sport": "Diving",
+    "sport_code": "DIV",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/diving"
+  },
+  {
+    "event": "Men's Synchronised 10m Platform",
+    "tag": "diving",
+    "sport": "Diving",
+    "sport_code": "DIV",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/diving"
+  },
+  {
+    "event": "Eventing Team",
+    "tag": "equestrian",
+    "sport": "Equestrian",
+    "sport_code": "EQU",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/equestrian"
+  },
+  {
+    "event": "Eventing Individual",
+    "tag": "equestrian",
+    "sport": "Equestrian",
+    "sport_code": "EQU",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/equestrian"
+  },
+  {
+    "event": "Dressage Team",
+    "tag": "equestrian",
+    "sport": "Equestrian",
+    "sport_code": "EQU",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/equestrian"
+  },
+  {
+    "event": "Dressage Individual",
+    "tag": "equestrian",
+    "sport": "Equestrian",
+    "sport_code": "EQU",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/equestrian"
+  },
+  {
+    "event": "Jumping Team",
+    "tag": "equestrian",
+    "sport": "Equestrian",
+    "sport_code": "EQU",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/equestrian"
+  },
+  {
+    "event": "Jumping Individual",
+    "tag": "equestrian",
+    "sport": "Equestrian",
+    "sport_code": "EQU",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/equestrian"
+  },
+  {
+    "event": "Women's Épée Individual",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Women's Foil Individual",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Women's Sabre Individual",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Men's Épée Individual",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Men's Foil Individual",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Men's Sabre Individual",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Women's Épée Team",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Women's Foil Team",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Women's Sabre Team",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Men's Épée Team",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Men's Foil Team",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Men's Sabre Team",
+    "tag": "fencing",
+    "sport": "Fencing",
+    "sport_code": "FEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/fencing"
+  },
+  {
+    "event": "Men",
+    "tag": "football",
+    "sport": "Football",
+    "sport_code": "FBL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/football"
+  },
+  {
+    "event": "Women",
+    "tag": "football",
+    "sport": "Football",
+    "sport_code": "FBL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/football"
+  },
+  {
+    "event": "Men's Individual Stroke Play",
+    "tag": "golf",
+    "sport": "Golf",
+    "sport_code": "GLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/golf"
+  },
+  {
+    "event": "Women's Individual Stroke Play",
+    "tag": "golf",
+    "sport": "Golf",
+    "sport_code": "GLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/golf"
+  },
+  {
+    "event": "Men",
+    "tag": "handball",
+    "sport": "Handball",
+    "sport_code": "HBL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/handball"
+  },
+  {
+    "event": "Women",
+    "tag": "handball",
+    "sport": "Handball",
+    "sport_code": "HBL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/handball"
+  },
+  {
+    "event": "Men",
+    "tag": "hockey",
+    "sport": "Hockey",
+    "sport_code": "HOC",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/hockey"
+  },
+  {
+    "event": "Women",
+    "tag": "hockey",
+    "sport": "Hockey",
+    "sport_code": "HOC",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/hockey"
+  },
+  {
+    "event": "Women -48 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Women -52 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Women -57 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Women -63 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Women -70 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Women -78 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Women +78 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Men -60 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Men -66 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Men -73 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Men -81 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Men -90 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Men -100 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Men +100 kg",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Mixed Team",
+    "tag": "judo",
+    "sport": "Judo",
+    "sport_code": "JUD",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo"
+  },
+  {
+    "event": "Women's 10km",
+    "tag": "marathon-swimming",
+    "sport": "Marathon Swimming",
+    "sport_code": "OWS",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/marathon-swimming"
+  },
+  {
+    "event": "Men's 10km",
+    "tag": "marathon-swimming",
+    "sport": "Marathon Swimming",
+    "sport_code": "OWS",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/marathon-swimming"
+  },
+  {
+    "event": "Women's Individual",
+    "tag": "modern-pentathlon",
+    "sport": "Modern Pentathlon",
+    "sport_code": "MPN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/modern-pentathlon"
+  },
+  {
+    "event": "Men's Individual",
+    "tag": "modern-pentathlon",
+    "sport": "Modern Pentathlon",
+    "sport_code": "MPN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/modern-pentathlon"
+  },
+  {
+    "event": "Individual All-Around",
+    "tag": "rhythmic-gymnastics",
+    "sport": "Rhythmic Gymnastics",
+    "sport_code": "GRY",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rhythmic-gymnastics"
+  },
+  {
+    "event": "Group All-Around",
+    "tag": "rhythmic-gymnastics",
+    "sport": "Rhythmic Gymnastics",
+    "sport_code": "GRY",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rhythmic-gymnastics"
+  },
+  {
+    "event": "Women's Pair",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Men's Pair",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Women's Double Sculls",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Men's Double Sculls",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Women's Four",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Men's Four",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Women's Single Sculls",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Men's Single Sculls",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Lightweight Women's Double Sculls",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Lightweight Men's Double Sculls",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Women's Quadruple Sculls",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Men's Quadruple Sculls",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Women's Eight",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Men's Eight",
+    "tag": "rowing",
+    "sport": "Rowing",
+    "sport_code": "ROW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rowing"
+  },
+  {
+    "event": "Men",
+    "tag": "rugby-sevens",
+    "sport": "Rugby Sevens",
+    "sport_code": "RU7",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rugby-sevens"
+  },
+  {
+    "event": "Women",
+    "tag": "rugby-sevens",
+    "sport": "Rugby Sevens",
+    "sport_code": "RU7",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rugby-sevens"
+  },
+  {
+    "event": "Men's Windsurfing",
+    "tag": "sailing",
+    "sport": "Sailing",
+    "sport_code": "SAL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sailing"
+  },
+  {
+    "event": "Men's Kite",
+    "tag": "sailing",
+    "sport": "Sailing",
+    "sport_code": "SAL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sailing"
+  },
+  {
+    "event": "Men's Dinghy",
+    "tag": "sailing",
+    "sport": "Sailing",
+    "sport_code": "SAL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sailing"
+  },
+  {
+    "event": "Men's Skiff",
+    "tag": "sailing",
+    "sport": "Sailing",
+    "sport_code": "SAL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sailing"
+  },
+  {
+    "event": "Women's Windsurfing",
+    "tag": "sailing",
+    "sport": "Sailing",
+    "sport_code": "SAL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sailing"
+  },
+  {
+    "event": "Women's Kite",
+    "tag": "sailing",
+    "sport": "Sailing",
+    "sport_code": "SAL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sailing"
+  },
+  {
+    "event": "Women's Dinghy",
+    "tag": "sailing",
+    "sport": "Sailing",
+    "sport_code": "SAL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sailing"
+  },
+  {
+    "event": "Women's Skiff",
+    "tag": "sailing",
+    "sport": "Sailing",
+    "sport_code": "SAL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sailing"
+  },
+  {
+    "event": "Mixed Dinghy",
+    "tag": "sailing",
+    "sport": "Sailing",
+    "sport_code": "SAL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sailing"
+  },
+  {
+    "event": "Mixed Multihull",
+    "tag": "sailing",
+    "sport": "Sailing",
+    "sport_code": "SAL",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sailing"
+  },
+  {
+    "event": "10m Air Rifle Men",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "50m Rifle 3 Positions Men",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "10m Air Pistol Men",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "25m Rapid Fire Pistol Men",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "Trap Men",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "Skeet Men",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "10m Air Rifle Women",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "50m Rifle 3 Positions Women",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "10m Air Pistol Women",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "25m Pistol Women",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "Trap Women",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "Skeet Women",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "10m Air Rifle Mixed Team",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "10m Air Pistol Mixed Team",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "Skeet Mixed Team",
+    "tag": "shooting",
+    "sport": "Shooting",
+    "sport_code": "SHO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/shooting"
+  },
+  {
+    "event": "Women's Street",
+    "tag": "skateboarding",
+    "sport": "Skateboarding",
+    "sport_code": "SKB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/skateboarding"
+  },
+  {
+    "event": "Men's Street",
+    "tag": "skateboarding",
+    "sport": "Skateboarding",
+    "sport_code": "SKB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/skateboarding"
+  },
+  {
+    "event": "Women's Park",
+    "tag": "skateboarding",
+    "sport": "Skateboarding",
+    "sport_code": "SKB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/skateboarding"
+  },
+  {
+    "event": "Men's Park",
+    "tag": "skateboarding",
+    "sport": "Skateboarding",
+    "sport_code": "SKB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/skateboarding"
+  },
+  {
+    "event": "Women's Boulder & Lead",
+    "tag": "sport-climbing",
+    "sport": "Sport Climbing",
+    "sport_code": "CLB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sport-climbing"
+  },
+  {
+    "event": "Women's Speed",
+    "tag": "sport-climbing",
+    "sport": "Sport Climbing",
+    "sport_code": "CLB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sport-climbing"
+  },
+  {
+    "event": "Men's Boulder & Lead",
+    "tag": "sport-climbing",
+    "sport": "Sport Climbing",
+    "sport_code": "CLB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sport-climbing"
+  },
+  {
+    "event": "Men's Speed",
+    "tag": "sport-climbing",
+    "sport": "Sport Climbing",
+    "sport_code": "CLB",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sport-climbing"
+  },
+  {
+    "event": "Men",
+    "tag": "surfing",
+    "sport": "Surfing",
+    "sport_code": "SRF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/surfing"
+  },
+  {
+    "event": "Women",
+    "tag": "surfing",
+    "sport": "Surfing",
+    "sport_code": "SRF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/surfing"
+  },
+  {
+    "event": "Women's 50m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 100m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 200m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 400m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 800m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 1500m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 100m Backstroke",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 200m Backstroke",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 100m Breaststroke",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 200m Breaststroke",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 100m Butterfly",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 200m Butterfly",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 200m Individual Medley",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 400m Individual Medley",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 4 x 100m Freestyle Relay",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 4 x 200m Freestyle Relay",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Women's 4 x 100m Medley Relay",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 50m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 100m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 200m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 400m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 800m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 1500m Freestyle",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 100m Backstroke",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 200m Backstroke",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 100m Breaststroke",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 200m Breaststroke",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 100m Butterfly",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 200m Butterfly",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 200m Individual Medley",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 400m Individual Medley",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 4 x 100m Freestyle Relay",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 4 x 200m Freestyle Relay",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's 4 x 100m Medley Relay",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Mixed 4 x 100m Medley Relay",
+    "tag": "swimming",
+    "sport": "Swimming",
+    "sport_code": "SWM",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming"
+  },
+  {
+    "event": "Men's Singles",
+    "tag": "table-tennis",
+    "sport": "Table Tennis",
+    "sport_code": "TTE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/table-tennis"
+  },
+  {
+    "event": "Women's Singles",
+    "tag": "table-tennis",
+    "sport": "Table Tennis",
+    "sport_code": "TTE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/table-tennis"
+  },
+  {
+    "event": "Mixed Doubles",
+    "tag": "table-tennis",
+    "sport": "Table Tennis",
+    "sport_code": "TTE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/table-tennis"
+  },
+  {
+    "event": "Men's Team",
+    "tag": "table-tennis",
+    "sport": "Table Tennis",
+    "sport_code": "TTE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/table-tennis"
+  },
+  {
+    "event": "Women's Team",
+    "tag": "table-tennis",
+    "sport": "Table Tennis",
+    "sport_code": "TTE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/table-tennis"
+  },
+  {
+    "event": "Men -58kg",
+    "tag": "taekwondo",
+    "sport": "Taekwondo",
+    "sport_code": "TKW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/taekwondo"
+  },
+  {
+    "event": "Men -68kg",
+    "tag": "taekwondo",
+    "sport": "Taekwondo",
+    "sport_code": "TKW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/taekwondo"
+  },
+  {
+    "event": "Men -80kg",
+    "tag": "taekwondo",
+    "sport": "Taekwondo",
+    "sport_code": "TKW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/taekwondo"
+  },
+  {
+    "event": "Men +80kg",
+    "tag": "taekwondo",
+    "sport": "Taekwondo",
+    "sport_code": "TKW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/taekwondo"
+  },
+  {
+    "event": "Women -49kg",
+    "tag": "taekwondo",
+    "sport": "Taekwondo",
+    "sport_code": "TKW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/taekwondo"
+  },
+  {
+    "event": "Women -57kg",
+    "tag": "taekwondo",
+    "sport": "Taekwondo",
+    "sport_code": "TKW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/taekwondo"
+  },
+  {
+    "event": "Women -67kg",
+    "tag": "taekwondo",
+    "sport": "Taekwondo",
+    "sport_code": "TKW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/taekwondo"
+  },
+  {
+    "event": "Women +67kg",
+    "tag": "taekwondo",
+    "sport": "Taekwondo",
+    "sport_code": "TKW",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/taekwondo"
+  },
+  {
+    "event": "Men's Singles",
+    "tag": "tennis",
+    "sport": "Tennis",
+    "sport_code": "TEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/tennis"
+  },
+  {
+    "event": "Women's Singles",
+    "tag": "tennis",
+    "sport": "Tennis",
+    "sport_code": "TEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/tennis"
+  },
+  {
+    "event": "Men's Doubles",
+    "tag": "tennis",
+    "sport": "Tennis",
+    "sport_code": "TEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/tennis"
+  },
+  {
+    "event": "Women's Doubles",
+    "tag": "tennis",
+    "sport": "Tennis",
+    "sport_code": "TEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/tennis"
+  },
+  {
+    "event": "Mixed Doubles",
+    "tag": "tennis",
+    "sport": "Tennis",
+    "sport_code": "TEN",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/tennis"
+  },
+  {
+    "event": "Men",
+    "tag": "trampoline-gymnastics",
+    "sport": "Trampoline Gymnastics",
+    "sport_code": "GTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/trampoline-gymnastics"
+  },
+  {
+    "event": "Women",
+    "tag": "trampoline-gymnastics",
+    "sport": "Trampoline Gymnastics",
+    "sport_code": "GTR",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/trampoline-gymnastics"
+  },
+  {
+    "event": "Women's Individual",
+    "tag": "triathlon",
+    "sport": "Triathlon",
+    "sport_code": "TRI",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/triathlon"
+  },
+  {
+    "event": "Men's Individual",
+    "tag": "triathlon",
+    "sport": "Triathlon",
+    "sport_code": "TRI",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/triathlon"
+  },
+  {
+    "event": "Mixed Relay",
+    "tag": "triathlon",
+    "sport": "Triathlon",
+    "sport_code": "TRI",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/triathlon"
+  },
+  {
+    "event": "Men",
+    "tag": "volleyball",
+    "sport": "Volleyball",
+    "sport_code": "VVO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/volleyball"
+  },
+  {
+    "event": "Women",
+    "tag": "volleyball",
+    "sport": "Volleyball",
+    "sport_code": "VVO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/volleyball"
+  },
+  {
+    "event": "Men",
+    "tag": "water-polo",
+    "sport": "Water Polo",
+    "sport_code": "WPO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/water-polo"
+  },
+  {
+    "event": "Women",
+    "tag": "water-polo",
+    "sport": "Water Polo",
+    "sport_code": "WPO",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/water-polo"
+  },
+  {
+    "event": "Women's 49kg",
+    "tag": "weightlifting",
+    "sport": "Weightlifting",
+    "sport_code": "WLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting"
+  },
+  {
+    "event": "Women's 59kg",
+    "tag": "weightlifting",
+    "sport": "Weightlifting",
+    "sport_code": "WLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting"
+  },
+  {
+    "event": "Women's 71kg",
+    "tag": "weightlifting",
+    "sport": "Weightlifting",
+    "sport_code": "WLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting"
+  },
+  {
+    "event": "Women's 81kg",
+    "tag": "weightlifting",
+    "sport": "Weightlifting",
+    "sport_code": "WLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting"
+  },
+  {
+    "event": "Women's +81kg",
+    "tag": "weightlifting",
+    "sport": "Weightlifting",
+    "sport_code": "WLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting"
+  },
+  {
+    "event": "Men's 61kg",
+    "tag": "weightlifting",
+    "sport": "Weightlifting",
+    "sport_code": "WLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting"
+  },
+  {
+    "event": "Men's 73kg",
+    "tag": "weightlifting",
+    "sport": "Weightlifting",
+    "sport_code": "WLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting"
+  },
+  {
+    "event": "Men's 89kg",
+    "tag": "weightlifting",
+    "sport": "Weightlifting",
+    "sport_code": "WLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting"
+  },
+  {
+    "event": "Men's 102kg",
+    "tag": "weightlifting",
+    "sport": "Weightlifting",
+    "sport_code": "WLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting"
+  },
+  {
+    "event": "Men's +102kg",
+    "tag": "weightlifting",
+    "sport": "Weightlifting",
+    "sport_code": "WLF",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting"
+  },
+  {
+    "event": "Men's Greco-Roman 60kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Greco-Roman 67kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Greco-Roman 77kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Greco-Roman 87kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Greco-Roman 97kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Greco-Roman 130kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Women's Freestyle 50kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Women's Freestyle 53kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Women's Freestyle 57kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Women's Freestyle 62kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Women's Freestyle 68kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Women's Freestyle 76kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Freestyle 57kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Freestyle 65kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Freestyle 74kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Freestyle 86kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Freestyle 97kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  },
+  {
+    "event": "Men's Freestyle 125kg",
+    "tag": "wrestling",
+    "sport": "Wrestling",
+    "sport_code": "WRE",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling"
+  }
+]

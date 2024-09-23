@@ -1,0 +1,282 @@
+[
+  {
+    "venue": "Aquatics Centre",
+    "sports": "['Artistic Swimming', 'Diving', 'Water Polo']",
+    "date_start": "2024-07-27T09:00:00Z",
+    "date_end": "2024-08-10T20:00:00Z",
+    "tag": "aquatics-centre",
+    "url": "https://olympics.com/en/paris-2024/venues/aquatics-centre"
+  },
+  {
+    "venue": "Bercy Arena",
+    "sports": "['Artistic Gymnastics', 'Basketball', 'Trampoline']",
+    "date_start": "2024-07-27T09:00:00Z",
+    "date_end": "2024-08-11T16:00:00Z",
+    "tag": "bercy-arena",
+    "url": "https://olympics.com/en/paris-2024/venues/bercy-arena"
+  },
+  {
+    "venue": "Bordeaux Stadium",
+    "sports": "['Football']",
+    "date_start": "2024-07-25T17:00:00Z",
+    "date_end": "2024-08-02T21:59:00Z",
+    "tag": "bordeaux-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/bordeaux-stadium"
+  },
+  {
+    "venue": "Champ de Mars Arena",
+    "sports": "['Judo', 'Wrestling']",
+    "date_start": "2024-07-27T08:00:00Z",
+    "date_end": "2024-08-11T12:00:00Z",
+    "tag": "champ-de-mars-arena",
+    "url": "https://olympics.com/en/paris-2024/venues/champ-de-mars-arena"
+  },
+  {
+    "venue": "Château de Versailles",
+    "sports": "['Equestrian', 'Modern Pentathlon']",
+    "date_start": "2024-07-27T07:30:00Z",
+    "date_end": "2024-08-11T11:30:00Z",
+    "tag": "chateau-de-versailles",
+    "url": "https://olympics.com/en/paris-2024/venues/chateau-de-versailles"
+  },
+  {
+    "venue": "Chateauroux Shooting Centre",
+    "sports": "['Shooting']",
+    "date_start": "2024-07-27T07:00:00Z",
+    "date_end": "2024-08-05T14:35:00Z",
+    "tag": "chateauroux-shooting-centre",
+    "url": "https://olympics.com/en/paris-2024/venues/chateauroux-shooting-centre"
+  },
+  {
+    "venue": "Eiffel Tower Stadium",
+    "sports": "['Beach Volleyball']",
+    "date_start": "2024-07-27T12:00:00Z",
+    "date_end": "2024-08-10T21:59:00Z",
+    "tag": "eiffel-tower-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/eiffel-tower-stadium"
+  },
+  {
+    "venue": "Elancourt Hill",
+    "sports": "['Cycling Mountain Bike']",
+    "date_start": "2024-07-28T12:00:00Z",
+    "date_end": "2024-07-29T14:30:00Z",
+    "tag": "elancourt-hill",
+    "url": "https://olympics.com/en/paris-2024/venues/elancourt-hill"
+  },
+  {
+    "venue": "Geoffroy-Guichard Stadium",
+    "sports": "['Football']",
+    "date_start": "2024-07-25T13:00:00Z",
+    "date_end": "2024-07-31T19:00:00Z",
+    "tag": "geoffroy-guichard-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/geoffroy-guichard-stadium"
+  },
+  {
+    "venue": "Grand Palais",
+    "sports": "['Fencing', 'Taekwondo']",
+    "date_start": "2024-07-27T08:00:00Z",
+    "date_end": "2024-08-10T21:00:00Z",
+    "tag": "grand-palais",
+    "url": "https://olympics.com/en/paris-2024/venues/grand-palais"
+  },
+  {
+    "venue": "Hôtel de Ville",
+    "sports": "['Athletics']",
+    "date_start": "2024-08-10T06:00:00Z",
+    "date_end": "2024-08-11T09:15:00Z",
+    "tag": "hotel-de-ville",
+    "url": "https://olympics.com/en/paris-2024/venues/hotel-de-ville"
+  },
+  {
+    "venue": "Invalides",
+    "sports": "['Archery', 'Athletics', 'Cycling Road']",
+    "date_start": "2024-07-25T07:30:00Z",
+    "date_end": "2024-08-04T13:20:00Z",
+    "tag": "invalides",
+    "url": "https://olympics.com/en/paris-2024/venues/invalides"
+  },
+  {
+    "venue": "La Beaujoire Stadium",
+    "sports": "['Football']",
+    "date_start": "2024-07-25T15:00:00Z",
+    "date_end": "2024-08-08T18:00:00Z",
+    "tag": "la-beaujoire-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/la-beaujoire-stadium"
+  },
+  {
+    "venue": "La Concorde",
+    "sports": "['3x3 Basketball', 'Breaking', 'Cycling BMX Freestyle', 'Skateboarding']",
+    "date_start": "2024-07-27T10:00:00Z",
+    "date_end": "2024-08-10T20:00:00Z",
+    "tag": "la-concorde",
+    "url": "https://olympics.com/en/paris-2024/venues/la-concorde"
+  },
+  {
+    "venue": "Le Bourget Sport Climbing Venue",
+    "sports": "['Sport Climbing']",
+    "date_start": "2024-08-05T08:00:00Z",
+    "date_end": "2024-08-10T11:20:00Z",
+    "tag": "le-bourget-climbing-venue",
+    "url": "https://olympics.com/en/paris-2024/venues/le-bourget-climbing-venue"
+  },
+  {
+    "venue": "Golf National",
+    "sports": "['Golf']",
+    "date_start": "2024-08-01T07:00:00Z",
+    "date_end": "2024-08-10T16:30:00Z",
+    "tag": "le-golf-national",
+    "url": "https://olympics.com/en/paris-2024/venues/le-golf-national"
+  },
+  {
+    "venue": "Lyon Stadium",
+    "sports": "['Football']",
+    "date_start": "2024-07-25T17:00:00Z",
+    "date_end": "2024-08-09T16:00:00Z",
+    "tag": "lyon-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/lyon-stadium"
+  },
+  {
+    "venue": "Marseille Marina",
+    "sports": "['Sailing']",
+    "date_start": "2024-07-28T09:00:00Z",
+    "date_end": "2024-08-08T17:00:00Z",
+    "tag": "marseille-marina",
+    "url": "https://olympics.com/en/paris-2024/venues/marseille-marina"
+  },
+  {
+    "venue": "Marseille Stadium",
+    "sports": "['Football']",
+    "date_start": "2024-07-25T19:00:00Z",
+    "date_end": "2024-08-06T21:59:00Z",
+    "tag": "marseille-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/marseille-stadium"
+  },
+  {
+    "venue": "Nice Stadium",
+    "sports": "['Football']",
+    "date_start": "2024-07-25T15:00:00Z",
+    "date_end": "2024-08-31T21:00:00Z",
+    "tag": "nice-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/nice-stadium"
+  },
+  {
+    "venue": "North Paris Arena",
+    "sports": "['Boxing', 'Modern Pentathlon']",
+    "date_start": "2024-07-27T13:30:00Z",
+    "date_end": "2024-08-08T15:30:00Z",
+    "tag": "north-paris-arena",
+    "url": "https://olympics.com/en/paris-2024/venues/north-paris-arena"
+  },
+  {
+    "venue": "Parc des Princes",
+    "sports": "['Football']",
+    "date_start": "2024-07-25T13:00:00Z",
+    "date_end": "2024-08-10T18:30:00Z",
+    "tag": "parc-des-princes",
+    "url": "https://olympics.com/en/paris-2024/venues/parc-des-princes"
+  },
+  {
+    "venue": "Paris La Defense Arena",
+    "sports": "['Swimming', 'Water Polo']",
+    "date_start": "2024-07-27T09:00:00Z",
+    "date_end": "2024-08-11T13:50:00Z",
+    "tag": "paris-la-defense-arena",
+    "url": "https://olympics.com/en/paris-2024/venues/paris-la-defense-arena"
+  },
+  {
+    "venue": "Pierre Mauroy Stadium",
+    "sports": "['Basketball', 'Handball']",
+    "date_start": "2024-07-27T09:00:00Z",
+    "date_end": "2024-08-11T14:00:00Z",
+    "tag": "pierre-mauroy-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/pierre-mauroy-stadium"
+  },
+  {
+    "venue": "Pont Alexandre III",
+    "sports": "['Cycling Road', 'Marathon Swimming', 'Triathlon']",
+    "date_start": "2024-07-30T06:00:00Z",
+    "date_end": "2024-08-09T08:30:00Z",
+    "tag": "pont-alexandre-iii",
+    "url": "https://olympics.com/en/paris-2024/venues/pont-alexandre-iii"
+  },
+  {
+    "venue": "Porte de La Chapelle Arena",
+    "sports": "['Badminton', 'Rhythmic Gymnastics']",
+    "date_start": "2024-07-27T06:30:00Z",
+    "date_end": "2024-08-10T13:45:00Z",
+    "tag": "porte-de-la-chapelle-arena",
+    "url": "https://olympics.com/en/paris-2024/venues/porte-de-la-chapelle-arena"
+  },
+  {
+    "venue": "Stade Roland-Garros",
+    "sports": "['Boxing', 'Tennis']",
+    "date_start": "2024-07-27T10:00:00Z",
+    "date_end": "2024-08-10T21:30:00Z",
+    "tag": "roland-garros-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/roland-garros-stadium"
+  },
+  {
+    "venue": "Saint-Quentin-en-Yvelines BMX Stadium",
+    "sports": "['Cycling BMX Racing']",
+    "date_start": "2024-08-01T18:00:00Z",
+    "date_end": "2024-08-02T20:30:00Z",
+    "tag": "saint-quentin-en-yvelines-bmx-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/saint-quentin-en-yvelines-bmx-stadium"
+  },
+  {
+    "venue": "Saint-Quentin-en-Yvelines Velodrome",
+    "sports": "['Cycling Track ']",
+    "date_start": "2024-08-05T15:00:00Z",
+    "date_end": "2024-08-11T12:40:00Z",
+    "tag": "saint-quentin-en-yvelines-velodrome",
+    "url": "https://olympics.com/en/paris-2024/venues/saint-quentin-en-yvelines-velodrome"
+  },
+  {
+    "venue": "South Paris Arena",
+    "sports": "['Handball', 'Table Tennis', 'Volleyball', 'Weightlifting']",
+    "date_start": "2024-07-25T07:00:00Z",
+    "date_end": "2024-08-11T13:45:00Z",
+    "tag": "south-paris-arena",
+    "url": "https://olympics.com/en/paris-2024/venues/south-paris-arena"
+  },
+  {
+    "venue": "Stade de France",
+    "sports": "['Athletics', 'Rugby Sevens']",
+    "date_start": "2024-07-24T13:30:00Z",
+    "date_end": "2024-08-10T20:30:00Z",
+    "tag": "stade-de-france",
+    "url": "https://olympics.com/en/paris-2024/venues/stade-de-france"
+  },
+  {
+    "venue": "Teahupo'o, Tahiti",
+    "sports": "['Surfing']",
+    "date_start": "2024-07-27T17:00:00Z",
+    "date_end": "2024-07-31T03:15:00Z",
+    "tag": "teahupo-o-tahiti",
+    "url": "https://olympics.com/en/paris-2024/venues/teahupo-o-tahiti"
+  },
+  {
+    "venue": "Trocadéro",
+    "sports": "['Athletics', 'Cycling Road']",
+    "date_start": "2024-08-01T05:30:00Z",
+    "date_end": "2024-08-07T08:50:00Z",
+    "tag": "trocadero",
+    "url": "https://olympics.com/en/paris-2024/venues/trocadero"
+  },
+  {
+    "venue": "Vaires-sur-Marne Nautical Stadium",
+    "sports": "['Canoe Slalom', 'Canoe Sprint', 'Rowing']",
+    "date_start": "",
+    "date_end": "",
+    "tag": "vaires-sur-marne-nautical-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/vaires-sur-marne-nautical-stadium"
+  },
+  {
+    "venue": "Yves-du-Manoir Stadium",
+    "sports": "['Hockey']",
+    "date_start": "2024-07-27T08:00:00Z",
+    "date_end": "2024-08-09T20:30:00Z",
+    "tag": "yves-du-manoir-stadium",
+    "url": "https://olympics.com/en/paris-2024/venues/yves-du-manoir-stadium"
+  }
+]
