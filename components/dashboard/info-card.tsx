@@ -16,7 +16,7 @@ export default function InfoCard() {
           <TrophyIcon className="size-6 text-muted-foreground" />
         </CardHeader>
         <CardContent className="pt-4">
-          <div className="text-4xl font-bold dark:text-background">
+          <div className="text-4xl">
             <NumberTicker className="text-pretty dark:text-background"  value={92} />
           </div>
           <p className="text-xs text-muted-foreground">
@@ -34,7 +34,7 @@ export default function InfoCard() {
           <MedalIcon className="size-6 text-muted-foreground" />
         </CardHeader>
         <CardContent className="pt-4">
-          <div className="text-4xl font-bold dark:text-background">
+          <div className="text-4xl dark:text-background">
             <NumberTicker className="text-pretty dark:text-background"  value={9500000} />
           </div>
           <p className="text-xs text-muted-foreground">
@@ -52,7 +52,7 @@ export default function InfoCard() {
           <MedalIcon className="size-6 text-muted-foreground" />
         </CardHeader>
         <CardContent className="pt-4">
-          <div className="text-4xl font-bold">
+          <div className="text-4xl">
             <NumberTicker className="text-pretty dark:text-background" value={10500} />
           </div>
           <p className="text-xs text-muted-foreground">
@@ -70,8 +70,8 @@ export default function InfoCard() {
           <Users className="size-6 text-muted-foreground" />
         </CardHeader>
         <CardContent className="pt-4">
-          <div className="text-4xl font-bold">
-            Over <NumberTicker value={1000} />+
+          <div className="text-4xl text-pretty  dark:text-background">
+            Over <NumberTicker className="text-pretty dark:text-background" value={1000} />+
           </div>
           <div className="text-xs text-muted-foreground">
             Medals earned by all countries in total

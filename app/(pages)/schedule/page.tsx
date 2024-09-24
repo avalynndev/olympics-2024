@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 import data from "@/data/schedule.json";
-import { Settings, Search } from "lucide-react";
+import { motion } from "framer-motion";
+import { Search, Settings } from "lucide-react";
 
+import { Badge } from "@/components/ui/badge";
 import {
   Card,
   CardContent,
@@ -43,22 +45,26 @@ interface Event {
 
 const ScheduleCard: React.FC<{ event: Event }> = ({ event }) => {
   return (
-    <Card className="mb-4">
-      <CardHeader>
-        <CardTitle>
-          {event.discipline} - {event.event}
-        </CardTitle>
-        <CardDescription>{event.phase}</CardDescription>
-      </CardHeader>
-      <CardContent>
-        <p>
-          {new Date(event.start_date).toLocaleString()} -{" "}
-          {new Date(event.end_date).toLocaleString()}
-        </p>
-        <p>{event.location_description}</p>
-        <p>Status: {event.status}</p>
-      </CardContent>
-    </Card>
+    <div>
+      <Card>
+        <CardHeader>
+          <CardTitle>
+            {event.discipline} - {event.event} | {event.status}
+          </CardTitle>
+          <CardDescription>{event.phase}</CardDescription>
+        </CardHeader>
+        <CardContent className="space-y-2">
+          <p>{event.location_description}</p>
+          <Badge variant="outline" className="rounded">
+            {new Date(event.start_date).toLocaleString()}
+          </Badge>{" "}
+          -{" "}
+          <Badge variant="outline" className="rounded">
+            {new Date(event.end_date).toLocaleString()}
+          </Badge>
+        </CardContent>
+      </Card>
+    </div>
   );
 };
 
@@ -93,20 +99,21 @@ export default function Schedule() {
       <div className="p-4">
         <div className="mb-4 flex items-center justify-center space-x-2">
           <div className="relative w-full">
-          <Input
-            type="text"
-            placeholder="Search..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="mr-2"
-          /><Search className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400" />
-        </div>
+            <Input
+              type="text"
+              placeholder="Search..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="mr-2"
+            />
+            <Search className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400" />
+          </div>
           <Select
             value={groupBy}
             onValueChange={(value) => setGroupBy(value as keyof Event | "none")}
           >
             <SelectTrigger className="w-16">
-                <Settings />
+              <Settings />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="none">No Grouping</SelectItem>
@@ -117,7 +124,7 @@ export default function Schedule() {
           </Select>
         </div>
         {Object.entries(groupedData).map(([group, events]) => (
-          <div key={group} className="flex flex-col gap-3">
+          <div key={group} className="grid grid-cols-1 sm:grid-cols-2md:grid-cols-3 gap-3">
             {groupBy !== "none" && (
               <h2 className="pb-4 font-heading text-2xl">{group}</h2>
             )}
