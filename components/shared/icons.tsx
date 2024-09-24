@@ -1,13 +1,55 @@
-import { AlertTriangle, ArrowRight, ArrowUpRight, BookOpen, ChartArea, Check, ChevronLeft, ChevronRight, Copy, CreditCard, Download, File, FileText, FolderSync, HelpCircle, Home, Image, Laptop, LayoutPanelLeft, LineChart, Loader2, LucideIcon, LucideProps, MedalIcon, MessagesSquare, Moon, MoreVertical, Package, Plus, Puzzle, Search, Settings, SunMedium, Trash, User, Users, X } from "lucide-react";
-
-
-
-
+import {
+  AlertTriangle,
+  ArrowRight,
+  ArrowUpRight,
+  BookOpen,
+  Calendar,
+  CalendarRange,
+  ChartArea,
+  Check,
+  ChevronLeft,
+  ChevronRight,
+  Copy,
+  CreditCard,
+  Download,
+  File,
+  FileText,
+  FolderSync,
+  HelpCircle,
+  Home,
+  Image,
+  Laptop,
+  LayoutPanelLeft,
+  LineChart,
+  Loader2,
+  LucideIcon,
+  LucideProps,
+  Map,
+  MedalIcon,
+  MessagesSquare,
+  Moon,
+  MoreVertical,
+  Package,
+  Plus,
+  Puzzle,
+  Search,
+  Settings,
+  SunMedium,
+  Trash,
+  Tv,
+  User,
+  Users,
+  X,
+} from "lucide-react";
 
 export type Icon = LucideIcon;
 
 export const Icons = {
   add: Plus,
+  tv: Tv,
+  calendar_range: CalendarRange,
+  calendar: Calendar,
+  map: Map,
   medal: MedalIcon,
   refresh: FolderSync,
   download: Download,

@@ -1,5 +1,9 @@
 import type { Config } from "tailwindcss";
 
+
+
+
+
 const { fontFamily } = require("tailwindcss/defaultTheme");
 
 const config = {
@@ -67,6 +71,12 @@ const config = {
         geist: ["var(--font-geist)", ...fontFamily.sans],
       },
       keyframes: {
+        "border-beam": {
+          "100%": {
+            "offset-distance": "100%",
+          },
+        },
+
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -75,7 +85,10 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        // Fade up and down
+        shine: {
+          from: { backgroundPosition: "200% 0" },
+          to: { backgroundPosition: "-200% 0" },
+        },
         "fade-up": {
           "0%": {
             opacity: "0",
@@ -127,6 +140,9 @@ const config = {
         },
       },
       animation: {
+        "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
+        shine: "shine 8s ease-in-out infinite",
+
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
 
