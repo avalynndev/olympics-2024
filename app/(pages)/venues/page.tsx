@@ -18,8 +18,8 @@ import {
 import { DashboardHeader } from "@/components/dashboard/header";
 
 export const metadata = constructMetadata({
-  title: "Schedule - Olympics",
-  description: "Displays information about Olympic venues",
+  title: "Venues - Olympics",
+  description: "View the Olympic venues and their details.",
 });
 
 export default function VenuePage() {

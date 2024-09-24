@@ -62,7 +62,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
           ) : null}
         </div>
 
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-3 hidden md:flex">
           <Link
               href={siteConfig.links.github}
               target="_blank"

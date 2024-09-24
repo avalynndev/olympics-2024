@@ -70,7 +70,7 @@ export default function InfoCard() {
           <Users className="size-6 text-muted-foreground" />
         </CardHeader>
         <CardContent className="pt-4">
-          <div className="text-4xl text-pretty  dark:text-background">
+          <div className="text-pretty text-4xl  dark:text-background">
             Over <NumberTicker className="text-pretty dark:text-background" value={1000} />+
           </div>
           <div className="text-xs text-muted-foreground">

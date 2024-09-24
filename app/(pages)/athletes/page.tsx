@@ -8,11 +8,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const AthletesPage = () => (
   <>
     <Alert variant="destructive">
-      <ExclamationTriangleIcon className="h-4 w-4" />
+      <ExclamationTriangleIcon className="size-4" />
       <AlertTitle>Error</AlertTitle>
       <AlertDescription>
-        The athletes' data is available but too large to display on this page.
-        If you want to experiment, uncomment the code in
+        The athletes&apos; data is available but too large to display on this
+        page. If you want to experiment, uncomment the code in
         /app/(pages)/athletes/page.tsx.
       </AlertDescription>
     </Alert>
