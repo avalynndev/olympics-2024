@@ -34,7 +34,7 @@ const Card: React.FC<CardProps> = ({
       </div>
       <CardContent className="overflow-hidden">
         <CardHeader>
-          <CardTitle className="text-lg truncate">{title}</CardTitle>
+          <CardTitle className="truncate text-lg">{title}</CardTitle>
         </CardHeader>
         <CardDescription className="line-clamp-3">{description}</CardDescription>
         <CardFooter className="flex justify-center pt-4">
