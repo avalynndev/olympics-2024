@@ -1,0 +1,164 @@
+[
+  {
+    "sport": "Archery",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/archery",
+    "image_id": "ccf4u7chvnjhamngf2zo",
+    "description": "A sport in which competitors aim to shoot arrows at a target from a set distance."
+  },
+  {
+    "sport": "Artistic Gymnastics",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-gymnastics",
+    "image_id": "kurzlxstqem0gndjsdg6",
+    "description": "A discipline of gymnastics where athletes perform short routines on different apparatus."
+  },
+  {
+    "sport": "Artistic Swimming",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/artistic-swimming",
+    "image_id": "y2y41iukzw2ofzzxsnht",
+    "description": "A sport that combines swimming, dance, and gymnastics, performed in water."
+  },
+  {
+    "sport": "Athletics",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/athletics",
+    "image_id": "kc5u8avlnahb6hfojw4c",
+    "description": "A collection of sporting events that involve competitive running, jumping, throwing, and walking."
+  },
+  {
+    "sport": "Boxing",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/boxing",
+    "image_id": "khchfcomtt7jqfr5nhxn",
+    "description": "A combat sport in which two people throw punches at each other for a predetermined amount of time."
+  },
+  {
+    "sport": "Breaking",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/breaking",
+    "image_id": "g7hwbrz64sye32vcvehd",
+    "description": "A style of street dance that originated as part of hip-hop culture, characterized by its acrobatic and athletic moves, including spins, flips, and intricate footwork."
+  },
+  {
+    "sport": "Canoe Slalom",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-slalom",
+    "image_id": "ikwft7ezkoufkb4ub90d",
+    "description": "A timed event where athletes navigate a canoe or kayak through a course of hanging gates on river rapids."
+  },
+  {
+    "sport": "Canoe Sprint",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/canoe-kayak-flatwater",
+    "image_id": "mspaugyijaehjtlbmjnt",
+    "description": "A competitive race held on a calm water course where athletes paddle a canoe or kayak to achieve the fastest time."
+  },
+  {
+    "sport": "Handball",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/handball",
+    "image_id": "scn9e98twqokxumlwpyx",
+    "description": "A team sport where two teams of seven players each pass a ball to throw it into the goal of the other team."
+  },
+  {
+    "sport": "Hockey",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/hockey",
+    "image_id": "tm9btf3cbz1rzcosp8zq",
+    "description": "A team sport played on grass or artificial turf, where players use sticks to hit a ball into the opposing team's goal."
+  },
+  {
+    "sport": "Judo",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/judo",
+    "image_id": "t1aeramel0gscwsqfphp",
+    "description": "A modern martial art and combat sport that originated in Japan, focusing on techniques such as throws and grappling to defeat opponents."
+  },
+  {
+    "sport": "Marathon Swimming",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/marathon-swimming",
+    "image_id": "dgjlukvziwydvlmrwn4m",
+    "description": "A grueling long-distance swimming competition held in open water, testing athletes' endurance and strength over extended distances."
+  },
+  {
+    "sport": "Modern Pentathlon",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/modern-pentathlon",
+    "image_id": "za8wt8afawru6tcfwqoq",
+    "description": "An Olympic sport that comprises five different events: fencing, freestyle swimming, equestrian show jumping, and a final combined event of pistol shooting and cross country running."
+  },
+  {
+    "sport": "Rhythmic Gymnastics",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/rhythmic-gymnastics",
+    "image_id": "egt9cqsh0h9vwf8npquv",
+    "description": "A sport in which individuals or groups of five manipulate one or two pieces of apparatus: clubs, hoop, ball, ribbon, and rope."
+  },
+  {
+    "sport": "Skateboarding",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/skateboarding",
+    "image_id": "b47smaesg3uopzce5xru",
+    "description": "An action sport which involves riding and performing tricks using a skateboard."
+  },
+  {
+    "sport": "Sport Climbing",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/sport-climbing",
+    "image_id": "n1w8xenw2vwchizhmu4w",
+    "description": "A form of rock climbing that relies on permanent anchors fixed to the rock for protection."
+  },
+  {
+    "sport": "Surfing",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/surfing",
+    "image_id": "gtdtnqtbdquzrivuvyji",
+    "description": "A water sport in which the wave rider, referred to as a surfer, rides on the forward or deep face of a moving wave."
+  },
+  {
+    "sport": "Swimming",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/swimming",
+    "image_id": "alonzk8iknqfy2ydtzet",
+    "description": "An individual or team racing sport that requires the use of one's entire body to move through water."
+  },
+  {
+    "sport": "Table Tennis",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/table-tennis",
+    "image_id": "mkqvq9wzsos8owy5zsm7",
+    "description": "A sport in which two or four players hit a lightweight ball back and forth across a table using small rackets."
+  },
+  {
+    "sport": "Taekwondo",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/taekwondo",
+    "image_id": "lo6iwcfrrjtw8kqcff1b",
+    "description": "A Korean martial art characterized by its emphasis on head-height kicks, jumping and spinning kicks, and fast kicking techniques."
+  },
+  {
+    "sport": "Tennis",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/tennis",
+    "image_id": "ev6rvbtg733mutjb1bde",
+    "description": "A racket sport that can be played individually against a single opponent or between two teams of two players each."
+  },
+  {
+    "sport": "Trampoline Gymnastics",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/trampoline-gymnastics",
+    "image_id": "kkbhon9bdnkbkuxmxedl",
+    "description": "A sport where athletes perform acrobatics while bouncing on a trampoline."
+  },
+  {
+    "sport": "Triathlon",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/triathlon",
+    "image_id": "levkaqwhsls8rgocstst",
+    "description": "A multisport race with three continuous and sequential endurance races, typically swimming, cycling, and running."
+  },
+  {
+    "sport": "Volleyball",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/volleyball",
+    "image_id": "cip3q8dpxvzywuyqbtku",
+    "description": "A team sport in which two teams of six players are separated by a net, and each team tries to score points by grounding a ball on the other team's court."
+  },
+  {
+    "sport": "Water Polo",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/water-polo",
+    "image_id": "ceotnldil6umxksgrt20",
+    "description": "A competitive team sport played in water between two teams of seven players each."
+  },
+  {
+    "sport": "Weightlifting",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/weightlifting",
+    "image_id": "b3unpvgdcqorgfdwbvrq",
+    "description": "A sport in which the athlete attempts a maximum-weight single lift of a barbell loaded with weight plates."
+  },
+  {
+    "sport": "Wrestling",
+    "sport_url": "https://olympics.com/en/paris-2024/sports/wrestling",
+    "image_id": "zpfcusht6yim4saswr0s",
+    "description": "A combat sport involving grappling-type techniques such as clinch fighting, throws and takedowns, joint locks, pins, and other grappling holds."
+  }
+]

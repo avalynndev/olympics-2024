@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import highlightsData from "@/data/highlights.json";
-
+import Image from "next/image";
 import { constructMetadata } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
@@ -30,7 +30,7 @@ const Card: React.FC<CardProps> = ({
   return (
     <ShadcnCard className="my-4 items-center text-center">
       <div className="flex justify-center pt-4">
-        <img src={imageUrl} alt={title} className="rounded-lg" />
+        <Image src={imageUrl} alt={title} className="rounded-lg" width={300} height={300} />
       </div>
       <CardContent className="overflow-hidden">
         <CardHeader>
