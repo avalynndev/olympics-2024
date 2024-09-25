@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { Timeline } from "@/components/ui/timeline";
-import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function OlympicTimeline() {
   const data = [
@@ -158,9 +157,7 @@ export default function OlympicTimeline() {
 
   return (
     <div className="w-full">
-      <ScrollArea>
         <Timeline data={data} />
-      </ScrollArea>
     </div>
   );
 }
