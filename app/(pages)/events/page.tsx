@@ -43,12 +43,13 @@ export default function EventsPage() {
         </div>
         {Object.keys(groupedData).map((sport, index) => (
           <div key={index} className="mb-8">
-            <div className="mb-4 flex items-center justify-between">
+            <div className="mb-4 flex items-center justify-between max-[448px]:flex-col max-[448px]:items-start max-[448px]:w-full">
               <h1 className="font-heading text-2xl">{sport}</h1>
               <Link
                 href={groupedData[sport][0].sport_url}
                 target="_blank"
                 rel="noopener noreferrer"
+                className="max-[448px]:w-full max-[448px]:flex max-[448px]:justify-end max-[448px]:w-full max-[448px]:mt-[12px]"
               >
                 <Button
                   variant="expandIcon"
