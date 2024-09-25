@@ -11,7 +11,7 @@ export default function VideoPlayer() {
             <HeroVideoDialog
               animationStyle="from-center"
               videoSrc="https://www.youtube.com/embed/6c9hFGtSUF8?si=Q0PM6t-lCsjUAzqr"
-              thumbnailSrc="_static/thumbnail.png"
+              thumbnailSrc="/_static/thumbnail.png"
               thumbnailAlt="Hero Video"
             />
           </div>

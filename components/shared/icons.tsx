@@ -30,6 +30,7 @@ import {
   Moon,
   MoreVertical,
   Package,
+  History,
   Plus,
   Puzzle,
   Search,
@@ -47,6 +48,7 @@ export type Icon = LucideIcon;
 export const Icons = {
   add: Plus,
   tv: Tv,
+  history: History,
   calendar_range: CalendarRange,
   calendar: Calendar,
   map: Map,

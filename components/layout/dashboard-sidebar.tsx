@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { SidebarNavItem } from "@/types";
 import { Menu, PanelLeftClose, PanelRightClose } from "lucide-react";
-
+import Image from "next/image";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { useMediaQuery } from "@/hooks/use-media-query";
@@ -53,9 +53,11 @@ export function DashboardSidebar({ links }: DashboardSidebarProps) {
               <div className="flex h-14 items-center p-4 lg:h-[60px]">
                 {isSidebarExpanded && (
                   <Link href="/">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Olympic_Rings.svg/1600px-Olympic_Rings.svg.png?20111003031241"
+                    <Image
+                      src="/_static/olympics-rings.png"
                       alt="Olympics Logo"
+                      width={64}
+                      height={32}
                       className="mr-2 h-8"
                     />
                   </Link>

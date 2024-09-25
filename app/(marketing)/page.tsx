@@ -3,6 +3,8 @@ import Link from "next/link";
 import highlightsData from "@/data/highlights.json";
 import { allPosts } from "contentlayer/generated";
 
+
+
 import { getBlurDataURL } from "@/lib/utils";
 import { BlogPosts } from "@/components/content/blog-posts";
 import Marquee from "@/components/marquee";

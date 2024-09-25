@@ -20,6 +20,7 @@ export const sidebarLinks: SidebarNavItem[] = [
     title: "OPTIONS",
     items: [
       { href: "/", icon: "home", title: "Homepage" },
+      { href: "/history", icon: "history", title: "History" },
       { href: "/blog", icon: "bookOpen", title: "Blog" },
     ],
   },

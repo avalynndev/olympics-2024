@@ -18,19 +18,16 @@ export default async function HeroLanding() {
         >
           <span className="mr-3">🏅</span> Explore Olympics 2024 Data!
         </Link>
-
         <h1 className="font-satoshi text-balance text-[40px] font-black leading-[1.15] tracking-tight sm:text-5xl md:text-6xl md:leading-[1.15]">
           Discover the{" "}
           <span className="bg-gradient-to-r from-violet-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">
             2024 Olympic Games
           </span>
         </h1>
-
         <p className="max-w-2xl text-balance text-muted-foreground sm:text-lg">
           Find detailed information about events, athletes, and results. <br />
           Stay updated with the latest statistics and analyses.
         </p>
-
         <div className="flex justify-center space-x-2">
           <Link
             href="/dashboard"

@@ -32,8 +32,6 @@ export default function EventsPage() {
         heading="Events"
         text="List of events for each sport from the Paris 2024 Olympics"
       />{" "}
-      <div className="px-2">
-        <MaxWidthWrapper>
         <div className="mb-4">
           <Input
             type="text"
@@ -73,8 +71,6 @@ export default function EventsPage() {
             </div>
           </div>
         ))}
-        </MaxWidthWrapper>
-      </div>
     </>
   );
 }
