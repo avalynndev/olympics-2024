@@ -31,9 +31,5 @@ export const marketingConfig: MarketingConfig = {
       title: "Schedule",
       href: "/schedule",
     },
-    {
-      title: "Dashboard",
-      href: "/dashboard",
-    },
   ],
 };

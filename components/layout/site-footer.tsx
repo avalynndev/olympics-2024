@@ -1,89 +1,82 @@
-import * as React from "react";
 import Link from "next/link";
+import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
+import { Medal } from "lucide-react";
 
-import { footerLinks, siteConfig } from "@/config/site";
-import { cn } from "@/lib/utils";
-import { ModeToggle } from "@/components/layout/mode-toggle";
-
-import { NewsletterForm } from "../forms/newsletter-form";
-import { Icons } from "../shared/icons";
-
-export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
+export const SiteFooter = () => {
   return (
-    <footer className={cn("border-t", className)}>
-      <div className="container grid max-w-6xl grid-cols-2 gap-6 py-14 md:grid-cols-5">
-        {footerLinks.map((section) => (
-          <div key={section.title}>
-            <span className="text-sm font-medium text-foreground">
-              {section.title}
+    <div className="mx-auto max-w-6xl rounded-lg shadow-sm lg:mb-4 lg:border">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-2 border-t leading-7 md:grid-cols-3 [&_h5]:text-lg [&_h5]:font-medium [&_li.disabled]:cursor-not-allowed [&_li.disabled]:opacity-50 [&_li]:text-muted-foreground [&_section]:space-y-2 [&_section]:p-4 [&_ul]:space-y-1 [&_ul]:text-sm [&_ul]:leading-7">
+        <section className="border-b md:border-b-0 md:border-r">
+          <h5>About us</h5>
+
+          <ul>
+            <li className="disabled">About</li>
+            <li className="disabled">Features</li>
+            <li className="disabled">Sports</li>
+            <li className="disabled">Download</li>
+          </ul>
+        </section>
+
+        <section className="border-b md:border-b-0 md:border-r">
+          <h5>Community</h5>
+
+          <ul>
+            <li>
+              <Link href="https://github.com/avalynndev/olympics">
+                Github
+              </Link>
+            </li>
+
+            <li className="disabled">Discord</li>
+
+            <li className="disabled">Careers</li>
+            <li className="disabled">Brand</li>
+          </ul>
+        </section>
+
+        <section className="">
+          <h5>Legal</h5>
+
+          <ul>
+            <li>
+              {" "}
+              <Link href={`/privacy`}>Privacy Policy</Link>
+            </li>
+            <li>
+              {" "}
+              <Link href={`/terms`}>Terms of Service</Link>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div className="border-t p-4">
+        <div className="mx-auto flex max-w-6xl flex-col gap-4 md:flex-row md:items-center md:justify-between md:gap-0">
+          <div className="flex items-center gap-2">
+            <Medal size={20} />
+            <h2 className="text-md font-normal">Olympics</h2>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <p className="text-xs text-muted-foreground">© 2024 avalynndev</p>
+
+            <div className="h-3 border-r" />
+
+            <span className="text-xs text-muted-foreground">
+              Data provided by Consumet and Tmdb API
             </span>
-            <ul className="mt-4 list-inside space-y-3">
-              {section.items?.map((link) => (
-                <li key={link.title}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary"
-                  >
-                    {link.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
           </div>
-        ))}
-        <div className="col-span-full flex flex-col items-end sm:col-span-1 md:col-span-2">
-          <NewsletterForm />
-        </div>
-      </div>
 
-      <div className="border-t py-4">
-        <div className="container flex max-w-6xl items-center justify-between">
-          {/* <span className="text-muted-foreground text-sm">
-            Copyright &copy; 2024. All rights reserved.
-          </span> */}
-          <p className="text-left text-sm text-muted-foreground">
-            Built by{" "}
-            <Link
-              href={siteConfig.links.twitter}
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              avalynndev
+          <div className="flex items-center gap-2 [&_a]:rounded-full [&_a]:border [&_a]:px-3 [&_a]:py-1 [&_a]:shadow">
+            <Link href="https://github.com/avalynndev/olympics">
+              <GitHubLogoIcon />
             </Link>
-            . Hosted on{" "}
-            <Link
-              href="https://vercel.com"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              Vercel
-            </Link>
-            . Illustrations by{" "}
-            <Link
-              href="https://popsy.co"
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              Popsy
-            </Link>
-          </p>
 
-          <div className="flex items-center gap-3">
-            <Link
-              href={siteConfig.links.github}
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium underline underline-offset-4"
-            >
-              <Icons.gitHub className="size-5" />
+            <Link href="https://x.com/avalynndev">
+              <TwitterLogoIcon />
             </Link>
-            <ModeToggle />
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
-}
+};

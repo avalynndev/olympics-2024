@@ -2,7 +2,7 @@ import { BorderBeam } from "@/components/ui/border-beam";
 import HeroVideoDialog from "@/components/ui/hero-video-dialog";
 import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
 
-export default function PreviewLanding() {
+export default function VideoPlayer() {
   return (
     <div className="pb-6 sm:pb-16">
       <MaxWidthWrapper>

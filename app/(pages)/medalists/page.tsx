@@ -14,7 +14,11 @@ export default async function Highlights() {
         heading="Medalists"
         text="View the athletes who won medals."
       />
-      <Medalists showSearch/>
+      <div className="flex flex-col gap-5">
+        <div className="grid grid-cols-1 gap-4">
+          <Medalists showSearch/>
+        </div>
+      </div>
     </>
   );
 }

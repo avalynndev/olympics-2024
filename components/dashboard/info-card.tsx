@@ -63,7 +63,7 @@ export default function InfoCard() {
       <Card className="rounded-lg border border-gray-500 bg-gradient-to-b from-gray-200 to-white shadow-lg">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
           <div className="flex items-center space-x-2">
-            <CardTitle className="text-sm font-medium">
+            <CardTitle className="text-sm font-medium text-gray-800">
               Total Medals Earned
             </CardTitle>
           </div>

@@ -126,7 +126,7 @@ export default function MedalistsTable({
     <div className="space-y-4">
       {showSearch && (
         <div className="flex items-center justify-center space-x-2">
-          <div className="relative w-1/2">
+          <div className="relative w-full md:w-1/2">
             <Input
               placeholder="Search medalists..."
               value={search}

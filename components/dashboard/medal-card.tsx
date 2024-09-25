@@ -4,7 +4,6 @@ import React from "react";
 import confetti from "canvas-confetti";
 import { Medal, Trophy } from "lucide-react";
 
-import { BorderBeam } from "@/components/ui/border-beam";
 import { Card, CardContent } from "@/components/ui/card";
 
 const InteractiveCard = ({ data, index }) => {
@@ -70,7 +69,6 @@ const InteractiveCard = ({ data, index }) => {
           <span className="font-bold text-orange-400">{data.bronze} 🥉</span>
         </div>
       </CardContent>
-      <BorderBeam />
     </Card>
   );
 };

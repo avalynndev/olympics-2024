@@ -21,7 +21,8 @@ export default async function HeroLanding() {
 
         <h1 className="font-satoshi text-balance text-[40px] font-black leading-[1.15] tracking-tight sm:text-5xl md:text-6xl md:leading-[1.15]">
           Discover the{" "}
-          <span className="bg-gradient-to-r from-violet-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">            2024 Olympic Games
+          <span className="bg-gradient-to-r from-violet-600 via-blue-600 to-cyan-500 bg-clip-text text-transparent">
+            2024 Olympic Games
           </span>
         </h1>
 
