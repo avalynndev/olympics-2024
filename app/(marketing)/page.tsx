@@ -1,12 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
-import highlightsData from "@/data/highlights.json";
 import { allPosts } from "contentlayer/generated";
-
-
-
+import Highlights from "@/components/content/highlight-card";
 import { getBlurDataURL } from "@/lib/utils";
 import { BlogPosts } from "@/components/content/blog-posts";
+import { NewsletterForm } from "@/components/forms/newsletter-form";
 import Marquee from "@/components/marquee";
 import HeroLanding from "@/components/sections/hero-landing";
 import VideoPlayer from "@/components/sections/video-player";
@@ -35,50 +31,30 @@ export default async function IndexPage() {
         <Marquee />
       </div>
       <div className="mx-auto flex max-w-screen-2xl flex-col items-center justify-center space-y-10 pb-16 pt-10">
-        <HeaderSection
-          title="Discover Features."
-          subtitle="Explore detailed information about Olympic events, athletes, and results."
-        />
-        <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-4">
-          {highlightsData.slice(0, 4).map((highlight, index) => (
-            <Link
-              key={index}
-              href={`${highlight.video_link}`}
-              className="group relative flex max-w-xs cursor-pointer flex-col gap-2 overflow-hidden md:max-w-sm"
-            >
-              <div className="relative flex aspect-video w-full items-center justify-center overflow-hidden rounded-md border bg-background/50 shadow">
-                <Image
-                  fill
-                  className="rounded-md object-cover"
-                  src={highlight.image_url}
-                  alt={highlight.title}
-                  sizes="100%"
-                />
-              </div>
-
-              <div className="space-y-1.5">
-                <div className="flex items-start justify-between gap-1">
-                  <span className="text-sm font-semibold">
-                    {highlight.title}
-                  </span>
-                </div>
-
-                <p className="line-clamp-3 text-xs text-muted-foreground">
-                  {highlight.description}
-                </p>
-              </div>
-            </Link>
-          ))}
-        </div>
+        <Highlights />
       </div>
       <MaxWidthWrapper className="space-y-10 pb-16">
         <HeaderSection
-          label="Features"
           title="Discover Features."
           subtitle="Explore detailed information about Olympic events, athletes, and results."
         />
         <BlogPosts posts={posts} />
       </MaxWidthWrapper>
+      <section className="py-32">
+        <div className="container">
+          <div className="flex flex-col items-center text-center">
+            <h3 className="mb-3 max-w-3xl text-2xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
+              Subscribe to our newsletter
+            </h3>
+            <p className="mb-8 max-w-3xl text-muted-foreground lg:text-lg">
+              Get all olympic game updates and news quickly to your inbox.
+            </p>
+            <div className="w-full md:max-w-lg">
+              <NewsletterForm />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

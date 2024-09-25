@@ -10,11 +10,13 @@ export default function NumberTicker({
   direction = "up",
   delay = 0,
   className,
+  style,
 }: {
   value: number;
   direction?: "up" | "down";
   className?: string;
   delay?: number; // delay in s
+  style?: React.CSSProperties;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
   const motionValue = useMotionValue(direction === "down" ? value : 0);
@@ -28,7 +30,7 @@ export default function NumberTicker({
     isInView &&
       setTimeout(() => {
         motionValue.set(direction === "down" ? 0 : value);
-      }, delay * 1000);
+      }, delay * 800);
   }, [motionValue, isInView, delay, value, direction]);
 
   useEffect(
@@ -49,6 +51,7 @@ export default function NumberTicker({
         "inline-block tabular-nums tracking-wider text-black dark:text-white",
         className,
       )}
+      style={style}
       ref={ref}
     />
   );
