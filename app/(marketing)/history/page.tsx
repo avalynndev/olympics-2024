@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 import { Timeline } from "@/components/ui/timeline";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
@@ -43,16 +43,16 @@ export default function OlympicTimeline() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <div className="col-span-1">
-              <img
-                src="https://raw.githubusercontent.com/olympics24/Design-Championship-24/refs/heads/main/Pictures/History/Olympic%20Logo_1913.jpg"
+              <Image
+                src="/_static/history/1913.jpg"
                 alt="Olympic Logo 1913"
                 width={500}
                 height={500}
               />
             </div>
             <div className="col-span-1">
-              <img
-                src="https://raw.githubusercontent.com/olympics24/Design-Championship-24/refs/heads/main/Pictures/History/Olympic%20Logo_1914.jpg"
+              <Image
+                src="/_static/history/1914.jpg"
                 alt="Olympic Logo 1914"
                 width={500}
                 height={500}
@@ -73,16 +73,16 @@ export default function OlympicTimeline() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <div className="col-span-1">
-              <img
-                src="https://raw.githubusercontent.com/olympics24/Design-Championship-24/refs/heads/main/Pictures/History/Olympic%20Logo_1920.jpg"
+              <Image
+                src="/_static/history/1920.jpg"
                 alt="Olympic Logo 1920"
                 width={500}
                 height={500}
               />
             </div>
             <div className="col-span-1">
-              <img
-                src="https://raw.githubusercontent.com/olympics24/Design-Championship-24/refs/heads/main/Pictures/History/Olympic%20Logo_1957.jpg"
+              <Image
+                src="/_static/history/1957.jpg"
                 alt="Olympic Logo 1957"
                 width={500}
                 height={500}
@@ -104,16 +104,16 @@ export default function OlympicTimeline() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <div className="col-span-1">
-              <img
-                src="https://raw.githubusercontent.com/olympics24/Design-Championship-24/refs/heads/main/Pictures/History/Olympic%20Logo_1986.jpg"
+              <Image
+                src="/_static/history/1986.jpg"
                 alt="Olympic Logo 1986"
                 width={500}
                 height={500}
               />
             </div>
             <div className="col-span-1">
-              <img
-                src="https://raw.githubusercontent.com/olympics24/Design-Championship-24/refs/heads/main/Pictures/History/Olympic%20Logo_2010.jpg"
+              <Image
+                src="/_static/history/2010.jpg"
                 alt="Olympic Logo 2010"
                 width={500}
                 height={500}
