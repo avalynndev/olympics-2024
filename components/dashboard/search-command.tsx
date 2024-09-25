@@ -64,7 +64,7 @@ export function SearchCommand({ links }: { links: SidebarNavItem[] }) {
               {section.items.map((item) => {
                 const Icon = Icons[item.icon || "arrowRight"];
                 return (
-                  <Link href={item.href as string} passHref>
+                  <Link key={item.title} href={item.href as string} passHref>
                     <CommandItem
                       key={item.title}
                       onSelect={() => {
