@@ -66,7 +66,7 @@ export default function ImprovedInfoCard() {
               {card.title}
             </CardTitle>
             <card.icon
-              className="h-5 w-5"
+              className="size-5"
               style={{ color: colorMap[card.color].dark }}
             />
           </CardHeader>
