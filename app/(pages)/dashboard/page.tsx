@@ -33,7 +33,7 @@ export default async function DashboardPage() {
         heading="Dashboard"
         text="View the Olympic medalists and medals."
       />
-      <div className="flex flex-col gap-5 md:gap-0 md:flex-none">
+      <div className="flex flex-col gap-5 md:flex-none md:gap-0">
         <Carousel />
         <div className="grid grid-cols-1 gap-4">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
