@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import { Timeline } from "@/components/ui/timeline";
-
+import { Button } from "@/components/ui/button";
 export default function OlympicTimeline() {
   const data = [
     {
@@ -140,8 +140,10 @@ export default function OlympicTimeline() {
 
   const timelineData = data.slice(0, 6);
   return (
-    <div className="w-full">
-      <Timeline data={timelineData} />
-    </div>
+    <section className="relative size-full min-h-screen pb-10">
+      <div className="mx-auto overflow-hidden px-5 sm:px-10">
+        <Timeline data={timelineData} />
+      </div>
+    </section>
   );
 }

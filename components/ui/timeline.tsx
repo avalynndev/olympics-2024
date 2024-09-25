@@ -1,12 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import {
-  motion,
-  useMotionValueEvent,
-  useScroll,
-  useTransform,
-} from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 interface TimelineEntry {
   title: string;
@@ -42,7 +37,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         <h2 className="mb-4 max-w-4xl text-lg text-black dark:text-white md:text-4xl">
           History Of Olympics
         </h2>
-        <p className="max-w-sm text-sm text-neutral-700 dark:text-neutral-300 md:text-base">
+        <p className="max-w-xl text-sm text-neutral-700 dark:text-neutral-300 md:text-base">
           Here&apos;s a timeline of Olympics through the ages, showcasing the
           evolution of the Games from their ancient origins in Greece to the
           modern international sporting event we know today.
