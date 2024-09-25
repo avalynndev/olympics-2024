@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import highlightsData from "@/data/highlights.json";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
@@ -88,7 +87,7 @@ const Highlights = () => {
           }}
         >
           <CarouselContent className="ml-[calc(theme(container.padding)-20px)] mr-[calc(theme(container.padding))] 2xl:ml-[calc(50vw-700px+theme(container.padding)-20px)] 2xl:mr-[calc(50vw-700px+theme(container.padding))]">
-            {highlightsData.slice(0, 5).map((item) => (
+            {highlightsData.slice(3, 10).map((item) => (
               <CarouselItem
                 key={item.title}
                 className="pl-[20px] md:max-w-[452px]"
@@ -104,13 +103,13 @@ const Highlights = () => {
                           <img
                             src={item.image_url}
                             alt={item.title}
-                            className="size-full object-cover object-center"
+                            className="size-full rounded-xl object-cover object-center"
                           />
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="mb-2 line-clamp-2 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
+                  <div className="mb-2 line-clamp-1 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">
                     {item.title}
                   </div>
                   <div className="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">

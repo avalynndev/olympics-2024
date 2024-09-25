@@ -10,7 +10,6 @@ export const sidebarLinks: SidebarNavItem[] = [
       { href: "/medalists", icon: "users", title: "Medalists" },
       { href: "/results", icon: "chart", title: "Results" },
       { href: "/schedule", icon: "calendar", title: "Schedule" },
-      { href: "/athletes", icon: "users", title: "Athletes" },
       { href: "/events", icon: "calendar_range", title: "Events" },
       { href: "/venues", icon: "map", title: "Venues" },
       { href: "/highlights", icon: "tv", title: "Highlights" },

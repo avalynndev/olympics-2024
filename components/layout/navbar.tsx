@@ -1,6 +1,6 @@
 "use client";
 
-import { useContext } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useSelectedLayoutSegment } from "next/navigation";
 
@@ -34,7 +34,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
       >
         <div className="flex gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-1.5">
-            <Icons.logo />
+            <Image src="/android-chrome-512x512.png" alt="Olympics" width={32} height={32} className="rounded-full" />
             <span className="font-urban text-xl font-bold">
               {siteConfig.name}
             </span>

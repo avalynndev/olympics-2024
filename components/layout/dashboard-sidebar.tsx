@@ -1,11 +1,12 @@
 "use client";
 
 import { Fragment, useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { SidebarNavItem } from "@/types";
 import { Menu, PanelLeftClose, PanelRightClose } from "lucide-react";
-import Image from "next/image";
+
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { useMediaQuery } from "@/hooks/use-media-query";
@@ -52,14 +53,20 @@ export function DashboardSidebar({ links }: DashboardSidebarProps) {
             <div className="flex h-full max-h-screen flex-1 flex-col gap-2">
               <div className="flex h-14 items-center p-4 lg:h-[60px]">
                 {isSidebarExpanded && (
-                  <Link href="/">
+                  <Link
+                    href="/"
+                    className="flex items-center gap-2 text-lg font-semibold"
+                  >
                     <Image
-                      src="/_static/olympics-rings.png"
-                      alt="Olympics Logo"
-                      width={64}
+                      src="/android-chrome-512x512.png"
+                      alt="Olympics"
+                      width={32}
                       height={32}
-                      className="mr-2 h-8"
+                      className="rounded-full"
                     />
+                    <span className="font-urban text-xl font-bold">
+                      {siteConfig.name}
+                    </span>
                   </Link>
                 )}
                 <Button
@@ -188,7 +195,13 @@ export function MobileSheetSidebar({ links }: DashboardSidebarProps) {
                   href="#"
                   className="flex items-center gap-2 text-lg font-semibold"
                 >
-                  <Icons.logo className="size-6" />
+                  <Image
+                    src="/android-chrome-512x512.png"
+                    alt="Olympics"
+                    width={32}
+                    height={32}
+                    className="rounded-full"
+                  />
                   <span className="font-urban text-xl font-bold">
                     {siteConfig.name}
                   </span>
