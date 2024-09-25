@@ -1,11 +1,12 @@
 "use client";
+
+import React, { useEffect, useRef, useState } from "react";
 import {
+  motion,
   useMotionValueEvent,
   useScroll,
   useTransform,
-  motion,
 } from "framer-motion";
-import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
   title: string;
@@ -39,11 +40,12 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="mx-auto max-w-7xl px-4 py-20 md:px-8 lg:px-10">
         <h2 className="mb-4 max-w-4xl text-lg text-black dark:text-white md:text-4xl">
-          Changelog from my journey
+          History Of Olympics
         </h2>
         <p className="max-w-sm text-sm text-neutral-700 dark:text-neutral-300 md:text-base">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-          a timeline of my journey.
+          Here&apos;s a timeline of Olympics through the ages, showcasing the
+          evolution of the Games from their ancient origins in Greece to the
+          modern international sporting event we know today.
         </p>
       </div>
 
@@ -57,7 +59,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               <div className="absolute left-3 flex size-10 items-center justify-center rounded-full bg-white dark:bg-black md:left-3">
                 <div className="size-4 rounded-full border border-neutral-300 bg-neutral-200 p-2 dark:border-neutral-700 dark:bg-neutral-800" />
               </div>
-              <h3 className="hidden text-xl font-bold text-neutral-500 dark:text-neutral-500 md:block md:pl-20 md:text-5xl ">
+              <h3 className="hidden text-xl font-bold text-neutral-500 dark:text-neutral-500 md:block md:pl-20 md:text-5xl">
                 {item.title}
               </h3>
             </div>
@@ -74,14 +76,14 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           style={{
             height: height + "px",
           }}
-          className="absolute left-8 top-0 w-[2px] overflow-hidden bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-0% via-neutral-200 to-transparent to-[99%] [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] dark:via-neutral-700  md:left-8 "
+          className="absolute left-8 top-0 w-[2px] overflow-hidden bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-0% via-neutral-200 to-transparent to-[99%] [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] dark:via-neutral-700 md:left-8"
         >
           <motion.div
             style={{
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] rounded-full bg-gradient-to-t from-purple-500 from-0% via-blue-500 via-10% to-transparent"
+            className="absolute inset-x-0 top-0 w-[2px] rounded-full bg-gradient-to-t from-purple-500 from-0% via-blue-500 via-10% to-transparent"
           />
         </div>
       </div>

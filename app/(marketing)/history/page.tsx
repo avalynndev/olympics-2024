@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 import { Timeline } from "@/components/ui/timeline";
 
 export default function OlympicTimeline() {
@@ -123,24 +124,6 @@ export default function OlympicTimeline() {
       ),
     },
     {
-      title: "Notable Olympics",
-      content: (
-        <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 dark:text-neutral-200 md:text-sm">
-            <b>Berlin 1936:</b> Used for Nazi propaganda. <br />
-            <br />
-            <b>Tokyo 1964:</b> First Olympics in Asia. <br />
-            <br />
-            <b>Sydney 2000:</b> Celebrated for its organization. <br />
-            <br />
-            <b>Beijing 2008:</b> Known for its grand opening. <br />
-            <br />
-            <b>Tokyo 2020:</b> Held in 2021 due to COVID-19, without spectators.
-          </p>
-        </div>
-      ),
-    },
-    {
       title: "Cultural Impact and Legacy",
       content: (
         <div>
@@ -155,9 +138,10 @@ export default function OlympicTimeline() {
     },
   ];
 
+  const timelineData = data.slice(0, 6);
   return (
     <div className="w-full">
-        <Timeline data={data} />
+      <Timeline data={timelineData} />
     </div>
   );
 }
