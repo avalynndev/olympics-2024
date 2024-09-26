@@ -125,8 +125,8 @@ export function CountryCharts() {
       </Popover>
       {selectedCountry && (
         <Card className="flex flex-col">
-          <CardContent className="flex-1 pb-0">
-            <ChartContainer config={chartConfig} className="mt-4">
+          <CardContent className="">
+            <ChartContainer config={chartConfig}>
               <BarChart
                 width={500}
                 height={300}
