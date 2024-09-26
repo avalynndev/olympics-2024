@@ -5,7 +5,7 @@ import { GitHubLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons";
 export const SiteFooter = () => {
   return (
     <div className="mx-auto max-w-6xl rounded-lg shadow-sm lg:mb-4 lg:border">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-2 border-t leading-7 md:grid-cols-3 [&_h5]:text-lg [&_h5]:font-medium [&_li.disabled]:cursor-not-allowed [&_li.disabled]:opacity-50 [&_li]:text-muted-foreground [&_section]:space-y-2 [&_section]:p-4 [&_ul]:space-y-1 [&_ul]:text-sm [&_ul]:leading-7">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-2 border-t leading-7 md:grid-cols-2 [&_h5]:text-lg [&_h5]:font-medium [&_li.disabled]:cursor-not-allowed [&_li.disabled]:opacity-50 [&_li]:text-muted-foreground [&_section]:space-y-2 [&_section]:p-4 [&_ul]:space-y-1 [&_ul]:text-sm [&_ul]:leading-7">
         <section className="border-b md:border-b-0 md:border-r">
           <h5>About us</h5>
 
@@ -14,23 +14,6 @@ export const SiteFooter = () => {
             <li className="disabled">Features</li>
             <li className="disabled">Event</li>
             <li className="disabled">Download</li>
-          </ul>
-        </section>
-
-        <section className="border-b md:border-b-0 md:border-r">
-          <h5>Community</h5>
-
-          <ul>
-            <li>
-              <Link href="https://github.com/avalynndev/olympics-2024">
-                Github
-              </Link>
-            </li>
-
-            <li className="disabled">Discord</li>
-
-            <li className="disabled">Careers</li>
-            <li className="disabled">Brand</li>
           </ul>
         </section>
 
