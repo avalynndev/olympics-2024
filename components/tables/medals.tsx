@@ -98,7 +98,7 @@ export default function Medals({
         <div className="flex items-center justify-center space-x-2">
           <div className="relative w-full rounded-md border border-black shadow-sm md:w-1/2">
             <Input
-              placeholder="Search medalists..."
+              placeholder="Search medal ranking..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="w-full"
