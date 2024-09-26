@@ -30,7 +30,7 @@ const defaultComputedFields: ComputedFields = {
 
 export const Post = defineDocumentType(() => ({
   name: "Post",
-  filePathPattern: `blog/**/*.mdx`,
+  filePathPattern: `news/**/*.mdx`,
   contentType: "mdx",
   fields: {
     title: {
@@ -50,20 +50,6 @@ export const Post = defineDocumentType(() => ({
     },
     image: {
       type: "string",
-      required: true,
-    },
-    authors: {
-      type: "list",
-      of: { type: "string" },
-      required: true,
-    },
-    categories: {
-      type: "list",
-      of: {
-        type: "enum",
-        options: ["news", "education"],
-        default: "news",
-      },
       required: true,
     },
     related: {

@@ -59,7 +59,7 @@ export async function GET(req: Request) {
           </div>
 
           <div tw="flex flex-col flex-1 py-16">
-            {/* Type : Blog or Doc */}
+            {/* Type : News or Doc */}
             <div
               tw="flex text-xl uppercase font-bold tracking-tight"
               style={{ fontFamily: "Inter", fontWeight: "normal" }}

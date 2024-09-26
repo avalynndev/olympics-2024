@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 import { getBlurDataURL } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import { BlogPosts } from "@/components/content/blog-posts";
+import { NewsPosts } from "@/components/content/news-posts";
 import Highlights from "@/components/content/highlight-card";
 import { NewsletterForm } from "@/components/forms/newsletter-form";
 import Marquee from "@/components/sections/marquee";
@@ -54,10 +54,10 @@ export default async function IndexPage() {
       </div>
       <MaxWidthWrapper className="space-y-10 pb-16">
         <HeaderSection
-          title="Discover Blog Posts."
-          subtitle="Explore some of the best blog posts about the Olympic games."
+          title="Discover News."
+          subtitle="Explore the latest news about the Olympic games."
         />
-        <BlogPosts posts={posts} />
+        <NewsPosts posts={posts} />
       </MaxWidthWrapper>
       <section className="py-32">
         <div className="container">

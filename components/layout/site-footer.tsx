@@ -12,7 +12,7 @@ export const SiteFooter = () => {
           <ul>
             <li className="disabled">About</li>
             <li className="disabled">Features</li>
-            <li className="disabled">Sports</li>
+            <li className="disabled">Event</li>
             <li className="disabled">Download</li>
           </ul>
         </section>
