@@ -5,32 +5,18 @@ import medals from "@/data/medals.json";
 import { Check, ChevronsUpDown } from "lucide-react";
 import { Bar, BarChart, CartesianGrid, LabelList, XAxis } from "recharts";
 
+
+
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-} from "@/components/ui/card";
-import {
-  ChartConfig,
-  ChartContainer,
-  ChartTooltip,
-  ChartTooltipContent,
-} from "@/components/ui/chart";
-import {
-  Command,
-  CommandEmpty,
-  CommandGroup,
-  CommandInput,
-  CommandItem,
-  CommandList,
-} from "@/components/ui/command";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+
+
+
+
 
 const medalData = medals.map((medal) => ({
   value: medal.country_code,
@@ -62,6 +48,12 @@ export function CountryCharts() {
   const [value, setValue] = React.useState("");
   const [selectedCountry, setSelectedCountry] =
     React.useState<CountryType | null>(null);
+
+  React.useEffect(() => {
+    const randomCountry =
+      medalData[Math.floor(Math.random() * medalData.length)];
+    setSelectedCountry(randomCountry);
+  }, []);
 
   const handleClick = (country: CountryType) => {
     const currentValue = country.value;

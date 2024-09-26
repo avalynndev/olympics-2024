@@ -41,7 +41,7 @@ export default async function HeroLanding() {
             <Icons.arrowRight className="size-4" />
           </Link>
           <Link
-            href="https://github.com/avalynndev/olympics-2024"
+            href="/events"
             target="_blank"
             rel="noreferrer"
             className={cn(
@@ -53,10 +53,9 @@ export default async function HeroLanding() {
               "px-4 text-[15px]",
             )}
           >
-            <Icons.gitHub className="mr-2 size-4" />
             <p>
-              <span className="hidden sm:inline-block">Contribute on</span>{" "}
-              GitHub
+              <span className="hidden sm:inline-block">Explore</span>{" "}
+              Events
             </p>
           </Link>
         </div>

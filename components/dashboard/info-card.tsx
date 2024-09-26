@@ -12,12 +12,15 @@ const cardData = [
     description: "world records have been broken",
   },
   {
-    title: "Participation",
-    value: 9500000,
-    icon: Users,
-    color: "green",
-    description: "tickets sold by the organisers",
+    title: "Total Medals",
+    value: 1000,
+    icon: Award,
+    color: "amber",
+    description: "medals earned by all countries",
+    prefix: "Over",
+    suffix: "+",
   },
+
   {
     title: "Athletes",
     value: 10500,
@@ -26,13 +29,11 @@ const cardData = [
     description: "athletes from all over the world",
   },
   {
-    title: "Total Medals",
-    value: 1000,
-    icon: Award,
-    color: "amber",
-    description: "medals earned by all countries",
-    prefix: "Over",
-    suffix: "+",
+    title: "Viewers",
+    value: 9500000,
+    icon: Users,
+    color: "green",
+    description: "tickets sold by the organisers",
   },
 ];
 
@@ -78,8 +79,8 @@ export default function ImprovedInfoCard() {
               {card.prefix && (
                 <span className="mr-1 text-lg">{card.prefix}</span>
               )}
-              <NumberTicker 
-                value={card.value} 
+              <NumberTicker
+                value={card.value}
                 className="inline-block"
                 style={{ color: colorMap[card.color].dark }}
               />

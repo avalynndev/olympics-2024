@@ -36,7 +36,6 @@ const Highlights = () => {
     <section className="pb-32">
       <div className="container">
         <div className="mb-8 flex flex-col items-center justify-center space-x-4 md:mb-14 md:flex-row md:items-end lg:mb-16">
-
           <div className="mt-8 flex shrink-0 items-center justify-center gap-2">
             <Button
               size="icon"
@@ -60,15 +59,13 @@ const Highlights = () => {
             >
               <ArrowRight className="size-5" />
             </Button>
-          </div>          
+          </div>
           <div>
             <Link
               href="/highlights"
-              className="group flex items-center text-xs font-medium md:text-base lg:text-lg"
+              className="group flex items-center pt-4 text-xs font-medium md:pt-0 md:text-base lg:text-lg"
             >
-              <Button
-                variant="expandIcon"
-              >
+              <Button variant="expandIcon">
                 Explore all{" "}
                 <ArrowRight className="ml-2 size-4 transition-transform group-hover:translate-x-1" />
               </Button>
@@ -76,7 +73,7 @@ const Highlights = () => {
           </div>
         </div>
       </div>
-      <div className="w-full">
+      <div className="relative flex flex-col">
         <Carousel
           setApi={setCarouselApi}
           opts={{
@@ -97,15 +94,15 @@ const Highlights = () => {
                   href={item.video_link}
                   className="group flex flex-col justify-between"
                 >
-                  <div className="flex aspect-[3/2] text-clip rounded-xl">
+                  <div className="flex aspect-video text-clip rounded-xl">
                     <div className="flex-1">
-                      <div className="relative size-full origin-bottom transition duration-300 group-hover:scale-105">
+                      <div className="relative size-full origin-bottom transition">
                         <Image
                           src={item.image_url}
                           alt={item.title}
-                          className="size-full rounded-xl object-cover object-center"
-                          width={100}
-                          height={100}
+                          fill
+                          className="rounded-xl object-cover"
+                          sizes="100%"
                         />
                       </div>
                     </div>

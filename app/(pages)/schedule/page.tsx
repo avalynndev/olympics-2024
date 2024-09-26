@@ -46,7 +46,7 @@ interface Event {
 const ScheduleCard: React.FC<{ event: Event }> = ({ event }) => {
   return (
     <div>
-      <Card>
+      <Card className="border bg-transparent shadow-lg">
         <CardHeader>
           <CardTitle>
             {event.discipline} - {event.event} | {event.status}
@@ -55,11 +55,11 @@ const ScheduleCard: React.FC<{ event: Event }> = ({ event }) => {
         </CardHeader>
         <CardContent className="space-y-2">
           <p>{event.location_description}</p>
-          <Badge variant="outline" className="rounded">
+          <Badge className="rounded">
             {new Date(event.start_date).toLocaleString()}
           </Badge>{" "}
           -{" "}
-          <Badge variant="outline" className="rounded">
+          <Badge variant="default" className="bg-blue-300 rounded">
             {new Date(event.end_date).toLocaleString()}
           </Badge>
         </CardContent>
@@ -126,7 +126,7 @@ export default function Schedule() {
         {Object.entries(groupedData).map(([group, events]) => (
           <div
             key={group}
-            className="sm:grid-cols-2md:grid-cols-3 grid grid-cols-1 gap-3"
+            className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3"
           >
             {groupBy !== "none" && (
               <h2 className="pb-4 font-heading text-2xl">{group}</h2>
