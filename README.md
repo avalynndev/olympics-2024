@@ -108,3 +108,10 @@ This project would not be possible without our amazing contributors and the comm
 - avalynndev -> main developer
 - lennoncoder -> avalynndev's alt account 
 - Amritanshu312 -> help for fixing some issues
+
+## 📝 Notes and Credits
+- Packages used can be viewed in `package.json`, the packages in `/packages` dir are edited versions of another package to suit this project needs
+- All the `/data/__.json` files are fetched from [kaggle-olympicdata-piterfm](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games/data) and [olympics-website](https://olympics.com/en/paris-2024/)
+- This project utilizes shadcn-ui component library, to make some of the compoenents present in `/components/ui` dir
+- For generating favicons this project used [favicongenerator](https://realfavicongenerator.net/)
+- This project doesnt not have any kind of comments as I started it very late and didn't have the time to add comments describing the code
