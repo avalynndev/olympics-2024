@@ -8,7 +8,7 @@ export const siteConfig: SiteConfig = {
   description:
     "Explore the world of Olympics through this website, built with Next.js, TailwindCSS, and Shadcn/ui.", 
   url: site_url,
-  ogImage: `${site_url}/_static/og.jpg`,
+  ogImage: `${site_url}/_static/thumbnail.png`,
   links: {
     twitter: "https://twitter.com/avalynndev",
     github: "https://github.com/avalynndev/olympics",
