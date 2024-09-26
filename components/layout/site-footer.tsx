@@ -51,7 +51,7 @@ export const SiteFooter = () => {
             <div className="h-3 border-r" />
 
             <span className="text-xs text-muted-foreground">
-              Data provided by Consumet and Tmdb API
+              Crafted with love 
             </span>
           </div>
 
