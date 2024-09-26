@@ -53,11 +53,11 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@miickasmt",
+      creator: "@avalynndev",
     },
     icons,
     metadataBase: new URL(siteConfig.url),
-    manifest: `${siteConfig.url}/site.webmanifest`,
+    manifest: `${siteConfig.url}/manifest.json`,
     ...(noIndex && {
       robots: {
         index: false,
