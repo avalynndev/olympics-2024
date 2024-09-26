@@ -2,9 +2,10 @@
 
 import { useState } from "react";
 import medalData from "@/data/medals.json";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import { ChevronDown, ChevronUp, Search } from "lucide-react";
 
 import { constructMetadata } from "@/lib/utils";
+import { Input } from "@/components/ui/input";
 import {
   Table,
   TableBody,
@@ -54,23 +55,33 @@ export const metadata = constructMetadata({
 
 export default function Medals({
   keepItems = medalData.length,
+  showSearch = false,
 }: {
   keepItems?: number;
+  showSearch?: boolean;
 }) {
   const [sortKey, setSortKey] = useState<SortKey>("gold");
   const [sortOrder, setSortOrder] = useState<"asc" | "desc">("desc");
+  const [search, setSearch] = useState("");
+
   const limitedMedalData = medalData.slice(0, keepItems);
 
-  const sortedMedalData = [...limitedMedalData].sort((a, b) => {
-    const aValue = sortKey === "total" ? calculateTotal(a) : a[sortKey];
-    const bValue = sortKey === "total" ? calculateTotal(b) : b[sortKey];
+  const sortedMedalData = [...limitedMedalData]
+    .filter((medalist) =>
+      Object.values(medalist).some((value) =>
+        value.toString().toLowerCase().includes(search.toLowerCase()),
+      ),
+    )
+    .sort((a, b) => {
+      const aValue = sortKey === "total" ? calculateTotal(a) : a[sortKey];
+      const bValue = sortKey === "total" ? calculateTotal(b) : b[sortKey];
 
-    if (sortOrder === "asc") {
-      return aValue < bValue ? -1 : aValue > bValue ? 1 : 0;
-    } else {
-      return aValue > bValue ? -1 : aValue < bValue ? 1 : 0;
-    }
-  });
+      if (sortOrder === "asc") {
+        return aValue < bValue ? -1 : aValue > bValue ? 1 : 0;
+      } else {
+        return aValue > bValue ? -1 : aValue < bValue ? 1 : 0;
+      }
+    });
 
   const handleSort = (key: SortKey) => {
     if (sortKey === key) {
@@ -80,8 +91,22 @@ export default function Medals({
       setSortOrder("asc");
     }
   };
+
   return (
     <div className="space-y-4">
+      {showSearch && (
+        <div className="flex items-center justify-center space-x-2">
+          <div className="relative w-full rounded-md border border-black shadow-sm md:w-1/2">
+            <Input
+              placeholder="Search medalists..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="w-full"
+            />
+            <Search className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400" />
+          </div>
+        </div>
+      )}
       <div className="overflow-x-auto rounded-md border">
         <Table>
           <TableHeader>

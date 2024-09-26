@@ -1,7 +1,11 @@
+import Link from "next/link";
 import { allPosts } from "contentlayer/generated";
-import Highlights from "@/components/content/highlight-card";
+import { ArrowRight } from "lucide-react";
+
 import { getBlurDataURL } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 import { BlogPosts } from "@/components/content/blog-posts";
+import Highlights from "@/components/content/highlight-card";
 import { NewsletterForm } from "@/components/forms/newsletter-form";
 import Marquee from "@/components/marquee";
 import HeroLanding from "@/components/sections/hero-landing";
@@ -25,18 +29,33 @@ export default async function IndexPage() {
       <VideoPlayer />
       <div className="pt-10">
         <HeaderSection
-          title="Discover Features."
-          subtitle="Explore  detailed information about Olympic events, athletes, and results."
+          title="Explore Olympic Sports"
+          subtitle="Dive into the world of Olympic sports, uncovering the stories of athletes and their remarkable achievements."
         />
+        <div className="flex justify-center pt-6">
+          <Link
+            href="/highlights"
+            className="group flex items-center text-xs font-medium md:text-base lg:text-lg"
+          >
+            <Button variant="shine">
+              Explore all{" "}
+              <ArrowRight className="ml-2 size-4 transition-transform group-hover:translate-x-1" />
+            </Button>
+          </Link>
+        </div>
         <Marquee />
       </div>
-      <div className="mx-auto flex max-w-screen-2xl flex-col items-center justify-center space-y-10 pb-16 pt-10">
+      <div className="mx-auto flex max-w-screen-2xl flex-col items-center justify-center pt-10">
+        <HeaderSection
+          title="Highlights"
+          subtitle="Explore some of the best highlights from the olympic games"
+        />
         <Highlights />
       </div>
       <MaxWidthWrapper className="space-y-10 pb-16">
         <HeaderSection
-          title="Discover Features."
-          subtitle="Explore detailed information about Olympic events, athletes, and results."
+          title="Discover Blog Posts."
+          subtitle="Explore some of the best blog posts about the Olympic games."
         />
         <BlogPosts posts={posts} />
       </MaxWidthWrapper>

@@ -4,11 +4,11 @@ import { useState } from "react";
 import Link from "next/link";
 import data from "@/data/events.json";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
-
+import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { DashboardHeader } from "@/components/dashboard/header";
-import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
+
 export default function EventsPage() {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -31,15 +31,17 @@ export default function EventsPage() {
       <DashboardHeader
         heading="Events"
         text="List of events for each sport from the Paris 2024 Olympics"
-      />{" "}
-        <div className="mb-4">
-          <Input
-            type="text"
-            placeholder="Search events..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full"
-          />
+      />
+        <div className="flex items-center justify-center space-x-2">
+          <div className="relative w-full md:w-1/2 border border-black rounded-md shadow-sm">
+            <Input
+              placeholder="Search events..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full"
+            />
+            <Search className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400" />
+          </div>
         </div>
         {Object.keys(groupedData).map((sport, index) => (
           <div key={index} className="mb-8">

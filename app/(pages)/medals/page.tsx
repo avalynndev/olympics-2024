@@ -25,7 +25,7 @@ export default async function Highlights() {
       </div>
       <div className="flex flex-col gap-5">
         <div className="grid grid-cols-1">
-          <Medals />
+          <Medals showSearch/>
         </div>
       </div>
     </>

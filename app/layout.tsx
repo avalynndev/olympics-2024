@@ -56,7 +56,17 @@ export default function RootLayout({ children }: RootLayoutProps) {
           enableSystem
           disableTransitionOnChange
         >
-          <NextTopLoader />
+          <NextTopLoader 
+            color="hsl(var(--primary))"
+            initialPosition={0.08}
+            crawlSpeed={200}
+            height={3}
+            crawl={true}
+            showSpinner={true}
+            easing="ease"
+            speed={200}
+            shadow="0 0 10px hsl(var(--primary)),0 0 5px hsl(var(--primary))"
+          />
           <div className="relative flex min-h-screen flex-col">
             <div className="flex-1">{children}</div>
           </div>
