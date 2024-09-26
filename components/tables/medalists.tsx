@@ -67,7 +67,7 @@ export default function MedalistsTable({
         if (a[sortKey] > b[sortKey]) return sortOrder === "asc" ? 1 : -1;
         return 0;
       });
-  }, [medalistsData, keepItems, sortKey, sortOrder, search]);
+  }, [keepItems, sortKey, sortOrder, search]);
 
   const handleSort = (key: SortKey) => {
     if (sortKey === key) {
@@ -92,7 +92,6 @@ export default function MedalistsTable({
     }
     const end = Date.now() + 1000;
     const colors = ["#a786ff", "#fd8bbc", "#eca184", "#f8deb1"];
-    var animationEnd = Date.now() + end;
     var skew = 1;
     const frame = () => {
       if (Date.now() > end) return;
@@ -126,7 +125,7 @@ export default function MedalistsTable({
     <div className="space-y-4">
       {showSearch && (
         <div className="flex items-center justify-center space-x-2">
-          <div className="relative w-full md:w-1/2">
+          <div className="relative w-full rounded-md border border-black shadow-sm md:w-1/2">
             <Input
               placeholder="Search medalists..."
               value={search}

@@ -98,7 +98,7 @@ export default function Schedule() {
       <DashboardHeader heading="Schedule" text="View the Olympic schedule" />
       <div className="p-4">
         <div className="mb-4 flex items-center justify-center space-x-2">
-          <div className="relative w-full">
+          <div className="relative w-full rounded-md border border-black shadow-sm">
             <Input
               type="text"
               placeholder="Search..."
@@ -124,7 +124,10 @@ export default function Schedule() {
           </Select>
         </div>
         {Object.entries(groupedData).map(([group, events]) => (
-          <div key={group} className="sm:grid-cols-2md:grid-cols-3 grid grid-cols-1 gap-3">
+          <div
+            key={group}
+            className="sm:grid-cols-2md:grid-cols-3 grid grid-cols-1 gap-3"
+          >
             {groupBy !== "none" && (
               <h2 className="pb-4 font-heading text-2xl">{group}</h2>
             )}

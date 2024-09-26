@@ -4,11 +4,11 @@ import { useState } from "react";
 import Link from "next/link";
 import data from "@/data/events.json";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
-
+import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { DashboardHeader } from "@/components/dashboard/header";
-import MaxWidthWrapper from "@/components/shared/max-width-wrapper";
+
 export default function EventsPage() {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -31,25 +31,27 @@ export default function EventsPage() {
       <DashboardHeader
         heading="Events"
         text="List of events for each sport from the Paris 2024 Olympics"
-      />{" "}
-        <div className="mb-4">
-          <Input
-            type="text"
-            placeholder="Search events..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full"
-          />
+      />
+        <div className="flex items-center justify-center space-x-2">
+          <div className="relative w-full rounded-md border border-black shadow-sm md:w-1/2">
+            <Input
+              placeholder="Search events..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full"
+            />
+            <Search className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400" />
+          </div>
         </div>
         {Object.keys(groupedData).map((sport, index) => (
           <div key={index} className="mb-8">
-            <div className="mb-4 flex items-center justify-between max-[448px]:flex-col max-[448px]:items-start max-[448px]:w-full">
+            <div className="mb-4 flex items-center justify-between max-[448px]:w-full max-[448px]:flex-col max-[448px]:items-start">
               <h1 className="font-heading text-2xl">{sport}</h1>
               <Link
                 href={groupedData[sport][0].sport_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="max-[448px]:w-full max-[448px]:flex max-[448px]:justify-end max-[448px]:w-full max-[448px]:mt-[12px]"
+                className="max-[448px]:mt-[12px] max-[448px]:flex max-[448px]:w-full max-[448px]:justify-end"
               >
                 <Button
                   variant="expandIcon"

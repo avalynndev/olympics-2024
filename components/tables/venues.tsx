@@ -1,7 +1,8 @@
 "use client";
 
-import medalData from "@/data/medals.json";
 import data from "@/data/venue.json";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 import {
   Table,
@@ -62,14 +63,11 @@ export default function Venues() {
                   </TooltipProvider>
                 </TableCell>
                 <TableCell>
-                  <a
-                    href={venue.url}
-                    className="text-indigo-600 hover:text-indigo-900"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                 <Button variant="link">
+                  <Link href={venue.url} target="_blank" rel="noopener noreferrer">
                     View
-                  </a>
+                  </Link>
+                 </Button>
                 </TableCell>
               </TableRow>
             ))}

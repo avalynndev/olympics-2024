@@ -14,7 +14,11 @@ export default function VenuePage() {
         heading="Venues"
         text="View the Olympic venues and their details."
       />
-      <Venues />
+      <div className="flex flex-col gap-5">
+        <div className="grid grid-cols-1 gap-4">
+          <Venues />
+        </div>
+      </div>
     </div>
   );
 }

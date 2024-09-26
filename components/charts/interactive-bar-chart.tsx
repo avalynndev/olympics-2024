@@ -20,7 +20,8 @@ import {
 
 const chartData = data
   .map(country => ({
-    date: country.name,
+    name: country.name,
+    country_code: country.country_code,
     gold: Math.max(country.gold, 0),
     silver: Math.max(country.silver, 0),
     bronze: Math.max(country.bronze, 0), 
@@ -103,12 +104,12 @@ export function InteractiveBarChart() {
           >
             <CartesianGrid vertical={false} />
             <XAxis
-              dataKey="date"
+              dataKey="name"
               tickLine={false}
               axisLine={false}
               tickMargin={8}
               minTickGap={32}
-              tickFormatter={(value) => value} // Display country names
+              tickFormatter={() => ""} // Display country names
             />
             <ChartTooltip
               content={

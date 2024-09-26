@@ -1,9 +1,16 @@
 "use client";
 
-// Import medals data
-import data from "@/data/medals.json";
 import { TrendingUp } from "lucide-react";
-import { Area, AreaChart, CartesianGrid, XAxis } from "recharts";
+import {
+  Bar,
+  BarChart,
+  CartesianGrid,
+  Legend,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 import {
   Card,
@@ -20,8 +27,7 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 
-// Replace chartData with medals data
-const chartData = data.slice(0,10);
+import data from "@/data/medals.json";
 
 const chartConfig = {
   gold: {
@@ -38,7 +44,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-export function AreaChartStacked() {
+export function TopCountriesBarChart() {
   return (
     <Card className="flex flex-col">
       <CardHeader>
@@ -49,57 +55,41 @@ export function AreaChartStacked() {
       </CardHeader>
       <CardContent className="flex-1">
         <ChartContainer config={chartConfig}>
-          <AreaChart
-            accessibilityLayer
-            data={chartData}
-            margin={{
-              top: 10,
-              right: 30,
-              left: 30, // Adjusted left margin
-              bottom: 10,
-            }}
+          <BarChart
+            data={data.slice(0, 5)}
+            width={500}
+            height={300}
+            layout="vertical"
+            margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
           >
-            <CartesianGrid vertical={false} />
+            <CartesianGrid strokeDasharray="3 3" />
             <XAxis
-              dataKey="country_code" // Change this to the appropriate key for country names
+              type="number"
               tickLine={false}
+              tickMargin={100}
               axisLine={false}
-              tickMargin={8}
-              tickFormatter={(value) => value}
-              padding={{ left: 20, right: 20 }} // Add padding to ensure labels are visible
             />
-            <ChartTooltip
-              cursor={false}
-              content={<ChartTooltipContent indicator="dot" />}
-            />
-            <Area
+            <YAxis dataKey="name" type="category" width={100} />
+            <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
+            <Bar
               dataKey="gold"
               fill={chartConfig.gold.color}
               name="Gold"
-              type="natural"
-              fillOpacity={0.4}
-              stroke={chartConfig.gold.color}
-              stackId="a"
+              radius={[0, 8, 8, 0]}
             />
-            <Area
+            <Bar
               dataKey="silver"
               fill={chartConfig.silver.color}
               name="Silver"
-              type="natural"
-              fillOpacity={0.4}
-              stroke={chartConfig.silver.color}
-              stackId="b"
+              radius={[0, 8, 8, 0]}
             />
-            <Area
+            <Bar
               dataKey="bronze"
               fill={chartConfig.bronze.color}
               name="Bronze"
-              type="natural"
-              fillOpacity={0.4}
-              stroke={chartConfig.bronze.color}
-              stackId="c"
+              radius={[0, 8, 8, 0]}
             />
-          </AreaChart>
+          </BarChart>
         </ChartContainer>
       </CardContent>
       <CardFooter className="flex-col gap-2 text-pretty text-center text-sm">

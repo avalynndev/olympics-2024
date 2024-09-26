@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { SidebarNavItem } from "@/types";
 
@@ -63,15 +64,17 @@ export function SearchCommand({ links }: { links: SidebarNavItem[] }) {
               {section.items.map((item) => {
                 const Icon = Icons[item.icon || "arrowRight"];
                 return (
-                  <CommandItem
-                    key={item.title}
-                    onSelect={() => {
-                      runCommand(() => router.push(item.href as string));
-                    }}
-                  >
-                    <Icon className="mr-2 size-5" />
-                    {item.title}
-                  </CommandItem>
+                  <Link key={item.title} href={item.href as string} passHref>
+                    <CommandItem
+                      key={item.title}
+                      onSelect={() => {
+                        runCommand(() => router.push(item.href as string));
+                      }}
+                    >
+                      <Icon className="mr-2 size-5" />
+                      {item.title}
+                    </CommandItem>
+                  </Link>
                 );
               })}
             </CommandGroup>

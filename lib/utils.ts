@@ -13,7 +13,7 @@ export function cn(...inputs: ClassValue[]) {
 export function constructMetadata({
   title = siteConfig.name,
   description = siteConfig.description,
-  image = siteConfig.ogImage,
+  image = "/_static/thumbnail", // Updated the default image path
   icons = "/favicon.ico",
   noIndex = false,
 }: {
@@ -53,11 +53,11 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@miickasmt",
+      creator: "@avalynndev",
     },
     icons,
     metadataBase: new URL(siteConfig.url),
-    manifest: `${siteConfig.url}/site.webmanifest`,
+    manifest: `${siteConfig.url}/manifest.json`,
     ...(noIndex && {
       robots: {
         index: false,

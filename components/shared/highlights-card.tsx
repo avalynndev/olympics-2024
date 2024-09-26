@@ -30,7 +30,7 @@ export const HighlightsCard: React.FC<CardProps> = ({
         <Image
           src={imageUrl}
           alt={title}
-          className="rounded-lg"
+          className="rounded-lg pt-2"
           width={300}
           height={300}
         />

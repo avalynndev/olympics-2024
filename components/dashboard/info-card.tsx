@@ -1,83 +1,94 @@
-import { MedalIcon, TrophyIcon, Users } from "lucide-react";
+import { Award, MedalIcon, TrophyIcon, Users } from "lucide-react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import NumberTicker from "@/components/ui/number-ticker";
 
-export default function InfoCard() {
+const cardData = [
+  {
+    title: "World Records",
+    value: 92,
+    icon: TrophyIcon,
+    color: "blue",
+    description: "world records have been broken",
+  },
+  {
+    title: "Participation",
+    value: 9500000,
+    icon: Users,
+    color: "green",
+    description: "tickets sold by the organisers",
+  },
+  {
+    title: "Athletes",
+    value: 10500,
+    icon: MedalIcon,
+    color: "red",
+    description: "athletes from all over the world",
+  },
+  {
+    title: "Total Medals",
+    value: 1000,
+    icon: Award,
+    color: "amber",
+    description: "medals earned by all countries",
+    prefix: "Over",
+    suffix: "+",
+  },
+];
+
+const colorMap = {
+  blue: { light: "#DBEAFE", dark: "#2563EB" },
+  green: { light: "#D1FAE5", dark: "#10B981" },
+  red: { light: "#FEE2E2", dark: "#EF4444" },
+  amber: { light: "#FEF3C7", dark: "#F59E0B" },
+};
+
+export default function ImprovedInfoCard() {
   return (
     <>
-      <Card className="rounded-lg border border-blue-500 bg-gradient-to-b from-blue-200 to-white shadow-lg">
-        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <div className="flex items-center space-x-2">
+      {cardData.map((card, index) => (
+        <Card
+          key={index}
+          className="rounded-lg shadow-md transition-all hover:-translate-y-1 hover:shadow-lg"
+          style={
+            {
+              "--card-bg-from": colorMap[card.color].light,
+              "--card-bg-to": "white",
+              "--card-border": colorMap[card.color].dark,
+              background:
+                "linear-gradient(to bottom right, var(--card-bg-from), var(--card-bg-to))",
+              borderColor: "var(--card-border)",
+            } as React.CSSProperties
+          }
+        >
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium text-gray-800">
-              World Records
+              {card.title}
             </CardTitle>
-          </div>
-          <TrophyIcon className="size-6 text-muted-foreground" />
-        </CardHeader>
-        <CardContent className="pt-4">
-          <div className="text-4xl">
-            <NumberTicker className="text-pretty dark:text-background"  value={92} />
-          </div>
-          <p className="text-xs text-muted-foreground">
-            of the world records have been broken
-          </p>
-        </CardContent>
-      </Card>
-      <Card className="rounded-lg border border-green-500 bg-gradient-to-b from-green-200 to-white shadow-lg">
-        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <div className="flex items-center space-x-2">
-            <CardTitle className="text-sm font-medium text-gray-800">
-              Participation{" "}
-            </CardTitle>
-          </div>
-          <MedalIcon className="size-6 text-muted-foreground" />
-        </CardHeader>
-        <CardContent className="pt-4">
-          <div className="text-4xl dark:text-background">
-            <NumberTicker className="text-pretty dark:text-background"  value={9500000} />
-          </div>
-          <p className="text-xs text-muted-foreground">
-            tickets sold by the organisers
-          </p>
-        </CardContent>
-      </Card>
-      <Card className="rounded-lg border border-red-500 bg-gradient-to-b from-red-200 to-white shadow-lg">
-        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <div className="flex items-center space-x-2">
-            <CardTitle className="text-sm font-medium text-gray-800">
-              Athletes
-            </CardTitle>
-          </div>
-          <MedalIcon className="size-6 text-muted-foreground" />
-        </CardHeader>
-        <CardContent className="pt-4">
-          <div className="text-4xl">
-            <NumberTicker className="text-pretty dark:text-background" value={10500} />
-          </div>
-          <p className="text-xs text-muted-foreground">
-            athletes from all over the world
-          </p>
-        </CardContent>
-      </Card>
-      <Card className="rounded-lg border border-gray-500 bg-gradient-to-b from-gray-200 to-white shadow-lg">
-        <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <div className="flex items-center space-x-2">
-            <CardTitle className="text-sm font-medium text-gray-800">
-              Total Medals Earned
-            </CardTitle>
-          </div>
-          <Users className="size-6 text-muted-foreground" />
-        </CardHeader>
-        <CardContent className="pt-4">
-          <div className="text-pretty text-4xl  dark:text-background">
-            Over <NumberTicker className="text-pretty dark:text-background" value={1000} />+
-          </div>
-          <div className="text-xs text-muted-foreground">
-            Medals earned by all countries in total
-          </div>
-        </CardContent>
-      </Card>
+            <card.icon
+              className="size-5"
+              style={{ color: colorMap[card.color].dark }}
+            />
+          </CardHeader>
+          <CardContent>
+            <div
+              className="text-2xl font-bold text-gray-800"
+              style={{ color: colorMap[card.color].dark }}
+            >
+              {card.prefix && (
+                <span className="mr-1 text-lg">{card.prefix}</span>
+              )}
+              <NumberTicker 
+                value={card.value} 
+                className="inline-block"
+                style={{ color: colorMap[card.color].dark }}
+              />
+              {card.suffix}
+            </div>
+            <p className="mt-1 text-xs text-gray-500">{card.description}</p>
+          </CardContent>
+        </Card>
+      ))}
     </>
   );
 }
