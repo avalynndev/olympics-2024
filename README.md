@@ -89,7 +89,22 @@ To install Node.js, follow these steps:
     npm -v
     ```
 
+## 📄 Pages
+- [/](https://olympics-avalynndev.vercel.app/)
+- [/history](https://olympics-avalynndev.vercel.app/history)
+- [/news](https://olympics-avalynndev.vercel.app/news)
+- [/medals](https://olympics-avalynndev.vercel.app/medals)
+- [/medalists](https://olympics-avalynndev.vercel.app/medalists)
+- [/venues](https://olympics-avalynndev.vercel.app/venues)
+- [/schedule](https://olympics-avalynndev.vercel.app/schedule)
+- [/highlights](https://olympics-avalynndev.vercel.app/highlights)
+- [/results](https://olympics-avalynndev.vercel.app/results)
+- [/dashboard](https://olympics-avalynndev.vercel.app/dashboard)
+- [/events](https://olympics-avalynndev.vercel.app/events)
+
 ## 🤝 Thanks to all Contributors
 This project would not be possible without our amazing contributors and the community. Thanks a lot! Keep rocking 🍻.
 
-[![Contributors](https://contrib.rocks/image?repo=avalynndev/olympics-2024)](https://github.com/avalynndev/olympics-2024/graphs/contributors)
+- avalynndev -> main developer
+- lennoncoder -> avalynndev's alt account 
+- Amritanshu312 -> help for fixing some issues
