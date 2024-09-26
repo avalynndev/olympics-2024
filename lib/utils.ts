@@ -13,7 +13,7 @@ export function cn(...inputs: ClassValue[]) {
 export function constructMetadata({
   title = siteConfig.name,
   description = siteConfig.description,
-  image = siteConfig.ogImage,
+  image = "/_static/thumbnail", // Updated the default image path
   icons = "/favicon.ico",
   noIndex = false,
 }: {
