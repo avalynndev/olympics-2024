@@ -34,7 +34,7 @@ export default async function IndexPage() {
         />
         <div className="flex justify-center pt-6">
           <Link
-            href="/highlights"
+            href="/events"
             className="group flex items-center text-xs font-medium md:text-base lg:text-lg"
           >
             <Button variant="shine">
