@@ -33,7 +33,7 @@ export default function EventsPage() {
         text="List of events for each sport from the Paris 2024 Olympics"
       />
         <div className="flex items-center justify-center space-x-2">
-          <div className="relative w-full md:w-1/2 border border-black rounded-md shadow-sm">
+          <div className="relative w-full rounded-md border border-black shadow-sm md:w-1/2">
             <Input
               placeholder="Search events..."
               value={searchTerm}

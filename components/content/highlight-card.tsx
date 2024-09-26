@@ -35,7 +35,7 @@ const Highlights = () => {
   return (
     <section className="pb-32">
       <div className="container">
-        <div className="mb-8 flex flex-col items-center space-x-4 justify-center md:mb-14 md:flex-row md:items-end lg:mb-16">
+        <div className="mb-8 flex flex-col items-center justify-center space-x-4 md:mb-14 md:flex-row md:items-end lg:mb-16">
 
           <div className="mt-8 flex shrink-0 items-center justify-center gap-2">
             <Button
