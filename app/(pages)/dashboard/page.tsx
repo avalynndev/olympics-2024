@@ -7,7 +7,7 @@ import InfoCard from "@/components/dashboard/info-card";
 import Medalists from "@/components/dashboard/medalists";
 import Medals from "@/components/dashboard/medals";
 
-const Carousel = dynamic(() => import("@/components/carousel"), {
+const Carousel = dynamic(() => import("@/components/sections/carousel"), {
   ssr: false,
   loading: () => (
     <>

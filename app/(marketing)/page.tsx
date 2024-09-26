@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { BlogPosts } from "@/components/content/blog-posts";
 import Highlights from "@/components/content/highlight-card";
 import { NewsletterForm } from "@/components/forms/newsletter-form";
-import Marquee from "@/components/marquee";
+import Marquee from "@/components/sections/marquee";
 import HeroLanding from "@/components/sections/hero-landing";
 import VideoPlayer from "@/components/sections/video-player";
 import { HeaderSection } from "@/components/shared/header-section";

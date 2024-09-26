@@ -1,5 +1,4 @@
 import * as React from "react";
-import NextImage, { ImageProps } from "next/image";
 import Link from "next/link";
 import { useMDXComponent } from "next-contentlayer2/hooks";
 
