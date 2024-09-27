@@ -124,16 +124,17 @@ export default function Schedule() {
           </Select>
         </div>
         {Object.entries(groupedData).map(([group, events]) => (
-          <div
-            key={group}
-            className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3"
-          >
+          <div key={group}>
             {groupBy !== "none" && (
-              <h2 className="pb-4 font-heading text-2xl">{group}</h2>
+              <h2 className="justify-center py-4 text-center font-heading text-5xl">
+                {group}
+              </h2>
             )}
-            {events.map((event, index) => (
-              <ScheduleCard key={index} event={event} />
-            ))}
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
+              {events.map((event, index) => (
+                <ScheduleCard key={index} event={event} />
+              ))}
+            </div>
           </div>
         ))}
       </div>
