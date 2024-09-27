@@ -13,6 +13,8 @@ Olympics 2024 is a comprehensive web app designed to provide detailed informatio
 
 This service offers real-time data, athlete profiles, event analytics, and more, all presented in an intuitive and aesthetic user interface.
 
+Here is the [video](https://drive.google.com/drive/folders/1n7oNCC96IaSdaPw2zB9rTMlY525aLfh-?usp=drive_link) showcasing the abilities of this wonderful website.
+
 # 🔥Features
 
 - Real-time updates on Olympic events and results.
