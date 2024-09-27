@@ -1,4 +1,4 @@
-<center> <a href="https://olympics-avalynndev.vercel.app/"> Olympics 2024</a> </center>
+<center> <h1><a href="https://olympics-avalynndev.vercel.app/"> Olympics 2024</a> </h1></center>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,ts" />
