@@ -21,7 +21,7 @@ export default function MedalistsCard({
   showSearch,
 }: MedalistsTableProps) {
   return (
-    <Card className="xl:col-span-2 border bg-transparent shadow-lg">
+    <Card className="border bg-transparent shadow-lg xl:col-span-2">
       <CardHeader className="flex flex-row items-center">
         <div className="grid gap-2">
           <CardTitle>Medalists</CardTitle>

@@ -5,7 +5,6 @@ import { InteractiveBarChart } from "@/components/charts/interactive-bar-chart";
 import { TopCountriesBarChart } from "@/components/charts/top-countries-chart";
 import { DashboardHeader } from "@/components/dashboard/header";
 
-
 export const metadata = constructMetadata({
   title: "Results – Olympics",
   description: "List of charts showing data about the Olympics.",

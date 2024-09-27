@@ -59,7 +59,7 @@ const ScheduleCard: React.FC<{ event: Event }> = ({ event }) => {
             {new Date(event.start_date).toLocaleString()}
           </Badge>{" "}
           -{" "}
-          <Badge variant="default" className="bg-blue-300 rounded">
+          <Badge variant="default" className="rounded bg-blue-300">
             {new Date(event.end_date).toLocaleString()}
           </Badge>
         </CardContent>

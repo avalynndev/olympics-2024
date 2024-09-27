@@ -25,7 +25,7 @@ export const HighlightsCard: React.FC<CardProps> = ({
   videoLink,
 }) => {
   return (
-    <ShadcnCard className="my-4 items-center text-center border bg-transparent shadow-lg">
+    <ShadcnCard className="my-4 items-center border bg-transparent text-center shadow-lg">
       <div className="flex justify-center">
         <Image
           src={imageUrl}
